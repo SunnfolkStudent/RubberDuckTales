@@ -28,12 +28,12 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Components")]
     private Rigidbody2D _rigidbody2D;
-    private InputManager _input;
+    private PlayerInput _input;
 
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        _input = GetComponent<InputManager>();
+        _input = GetComponent<PlayerInput>();
     }
 
     private void Update()
@@ -82,9 +82,9 @@ public class PlayerMovement : MonoBehaviour
     
     private void FixedUpdate()
     {
-        if (_input.moveDirection.x != 0) // != "not"
+        if (_input.moveDirection != 0) // != "not"
         {
-            _desiredVelocity.x = Mathf.Lerp(_desiredVelocity.x, moveSpeed * _input.moveDirection.x, accelerationTime); // important to multiply moveSpeed with moveDirection!
+            _desiredVelocity.x = Mathf.Lerp(_desiredVelocity.x, moveSpeed * _input.moveDirection, accelerationTime); // important to multiply moveSpeed with moveDirection!
         }
         else
         {
