@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class BrushMovement : MonoBehaviour
 {
-    Rigidbody2D m_Rigidbody2D;
-    float m_Speed;
+    public Rigidbody2D mRigidbody2D;
+    public float moveSpeed;
 
     void Start()
     {
         //Fetch the Rigidbody component you attach from your GameObject
-        m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        mRigidbody2D = GetComponent<Rigidbody2D>();
         //Set the speed of the GameObject
-        m_Speed = 85.0f;
+        moveSpeed = 85.0f;
     }
 
     void Update()
@@ -18,13 +18,13 @@ public class BrushMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
-            m_Rigidbody2D.velocity = transform.forward * m_Speed;
+            mRigidbody2D.velocity = transform.forward * moveSpeed;
         }
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
             //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
-            m_Rigidbody2D.velocity = -transform.forward * m_Speed;
+            mRigidbody2D.velocity = -transform.forward * moveSpeed;
         }
     }
 }
