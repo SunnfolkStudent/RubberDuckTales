@@ -1,5 +1,7 @@
+using System;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.HID;
 using UnityEngine.Serialization;
 
@@ -25,10 +27,12 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("isGrounded")]
     public LayerMask whatIsGround;
+    public LayerMask whatIsBrush;
     
     [Header("Components")]
     private Rigidbody2D _rigidbody2D;
     private PlayerInput _input;
+    private BrushMovement _brushMovement;
 
     private void Start()
     {
@@ -99,4 +103,5 @@ public class PlayerMovement : MonoBehaviour
     {
         return Physics2D.Raycast(transform.position, Vector2.down, 0.6f, whatIsGround);
     }
+    
 }
