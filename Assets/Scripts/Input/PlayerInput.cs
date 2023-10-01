@@ -30,11 +30,8 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveDirection = _controls.Player.Move.ReadValue<float>();
+        moveDirection = _controls.Player.MoveHorizontal.ReadValue<float>();
 
         equipPressed = _controls.Player.Equip.WasPressedThisFrame();
-
-        jumpPressed = _controls.Player.Jump.WasPressedThisFrame();
-        jumpReleased = _controls.Player.Jump.WasReleasedThisFrame();
     }
 }

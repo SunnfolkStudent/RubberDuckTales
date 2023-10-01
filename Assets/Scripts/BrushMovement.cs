@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BrushMovement : MonoBehaviour
@@ -5,6 +6,7 @@ public class BrushMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D _rigidbody2D;
     public float moveSpeed;
     [SerializeField] private LayerMask whatIsGround;
+    public float InputManager;
 
     public bool isBrushGrounded;
     
@@ -29,6 +31,11 @@ public class BrushMovement : MonoBehaviour
             //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
             _rigidbody2D.velocity = -transform.forward * moveSpeed;
         }
+
+        if (isBrushGrounded)
+        {
+            
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -44,5 +51,4 @@ public class BrushMovement : MonoBehaviour
         Debug.Log("BrushIsNOTGrounded");
         print("NOTGrounded");
     }
-
 }

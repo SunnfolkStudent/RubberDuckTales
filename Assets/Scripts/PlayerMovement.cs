@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.Experimental.GraphView;
 using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -32,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Components")]
     private Rigidbody2D _rigidbody2D;
     private PlayerInput _input;
-    private BrushMovement _brushMovement;
+    public BrushMovement _brushMovement;
 
     private void Start()
     {
@@ -86,7 +87,19 @@ public class PlayerMovement : MonoBehaviour
     
     private void FixedUpdate()
     {
-        if (_input.moveDirection != 0) // != "not"
+        if (_brushMovement.isBrushGrounded && _input.moveDirection != 0)
+        {
+            if (_brushMovement.transform.rotation.eulerAngles.z < 180)
+            {
+                _desiredVelocity = -_brushMovement.transform.forward * 80;
+            }
+            else
+            {
+                _desiredVelocity = _brushMovement.transform.forward * 80;
+            }
+            
+        }
+        else if (_input.moveDirection != 0) // != "not"
         {
             _desiredVelocity.x = Mathf.Lerp(_desiredVelocity.x, moveSpeed * _input.moveDirection, accelerationTime); // important to multiply moveSpeed with moveDirection!
         }
@@ -95,6 +108,7 @@ public class PlayerMovement : MonoBehaviour
             _desiredVelocity.x = Mathf.Lerp(
                 _desiredVelocity.x, 0f, IsPlayerGrounded()? groundFriction : airFriction); // "?" = If statement, with ":" separating true from false
         }
+
         
         _rigidbody2D.velocity = _desiredVelocity;
     }

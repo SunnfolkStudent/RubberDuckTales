@@ -28,7 +28,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             ""id"": ""d0ad559d-904c-48ea-8bd2-a10c493143fa"",
             ""actions"": [
                 {
-                    ""name"": ""Move"",
+                    ""name"": ""MoveHorizontal"",
                     ""type"": ""Value"",
                     ""id"": ""fc5c11fb-cd88-4303-8ccd-b225d5d37213"",
                     ""expectedControlType"": ""Axis"",
@@ -64,9 +64,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Jump"",
+                    ""name"": ""Lift"",
                     ""type"": ""Button"",
-                    ""id"": ""624a6fce-b6c4-4186-90d1-143adb3f56aa"",
+                    ""id"": ""899175f5-e872-4e90-98e4-df80349347fb"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -114,7 +114,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveHorizontal"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -125,7 +125,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveHorizontal"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -136,7 +136,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveHorizontal"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -147,7 +147,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveHorizontal"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -158,7 +158,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveHorizontal"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -169,7 +169,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveHorizontal"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -196,15 +196,70 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""d3ba2ace-fe7c-4a02-8e28-a887dd3bbe95"",
+                    ""name"": ""1D Axis"",
+                    ""id"": ""7c5ebf2e-dd5b-4730-8a16-1320d616d504"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Lift"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""370bf72d-d6a3-400b-b380-d356496f140d"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Lift"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""3b2173b0-678b-4da5-9250-3646419e5f68"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Jump"",
+                    ""action"": ""Lift"",
                     ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""891e4bbc-239d-483f-955a-da5171b3e156"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Lift"",
+                    ""isComposite"": true,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""8327ebe6-53dc-439c-b333-a8e98be9048a"",
+                    ""path"": ""<Gamepad>/leftStick/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Lift"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""8db2572c-0221-4f04-87c7-8c71a3180126"",
+                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Lift"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -213,11 +268,11 @@ public partial class @Controls: IInputActionCollection2, IDisposable
 }");
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-        m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
+        m_Player_MoveHorizontal = m_Player.FindAction("MoveHorizontal", throwIfNotFound: true);
         m_Player_Brush = m_Player.FindAction("Brush", throwIfNotFound: true);
         m_Player_Squeak = m_Player.FindAction("Squeak", throwIfNotFound: true);
         m_Player_Equip = m_Player.FindAction("Equip", throwIfNotFound: true);
-        m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_Lift = m_Player.FindAction("Lift", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -279,20 +334,20 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     // Player
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
-    private readonly InputAction m_Player_Move;
+    private readonly InputAction m_Player_MoveHorizontal;
     private readonly InputAction m_Player_Brush;
     private readonly InputAction m_Player_Squeak;
     private readonly InputAction m_Player_Equip;
-    private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_Lift;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
         public PlayerActions(@Controls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Move => m_Wrapper.m_Player_Move;
+        public InputAction @MoveHorizontal => m_Wrapper.m_Player_MoveHorizontal;
         public InputAction @Brush => m_Wrapper.m_Player_Brush;
         public InputAction @Squeak => m_Wrapper.m_Player_Squeak;
         public InputAction @Equip => m_Wrapper.m_Player_Equip;
-        public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        public InputAction @Lift => m_Wrapper.m_Player_Lift;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -302,9 +357,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_PlayerActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_PlayerActionsCallbackInterfaces.Add(instance);
-            @Move.started += instance.OnMove;
-            @Move.performed += instance.OnMove;
-            @Move.canceled += instance.OnMove;
+            @MoveHorizontal.started += instance.OnMoveHorizontal;
+            @MoveHorizontal.performed += instance.OnMoveHorizontal;
+            @MoveHorizontal.canceled += instance.OnMoveHorizontal;
             @Brush.started += instance.OnBrush;
             @Brush.performed += instance.OnBrush;
             @Brush.canceled += instance.OnBrush;
@@ -314,16 +369,16 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Equip.started += instance.OnEquip;
             @Equip.performed += instance.OnEquip;
             @Equip.canceled += instance.OnEquip;
-            @Jump.started += instance.OnJump;
-            @Jump.performed += instance.OnJump;
-            @Jump.canceled += instance.OnJump;
+            @Lift.started += instance.OnLift;
+            @Lift.performed += instance.OnLift;
+            @Lift.canceled += instance.OnLift;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
         {
-            @Move.started -= instance.OnMove;
-            @Move.performed -= instance.OnMove;
-            @Move.canceled -= instance.OnMove;
+            @MoveHorizontal.started -= instance.OnMoveHorizontal;
+            @MoveHorizontal.performed -= instance.OnMoveHorizontal;
+            @MoveHorizontal.canceled -= instance.OnMoveHorizontal;
             @Brush.started -= instance.OnBrush;
             @Brush.performed -= instance.OnBrush;
             @Brush.canceled -= instance.OnBrush;
@@ -333,9 +388,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Equip.started -= instance.OnEquip;
             @Equip.performed -= instance.OnEquip;
             @Equip.canceled -= instance.OnEquip;
-            @Jump.started -= instance.OnJump;
-            @Jump.performed -= instance.OnJump;
-            @Jump.canceled -= instance.OnJump;
+            @Lift.started -= instance.OnLift;
+            @Lift.performed -= instance.OnLift;
+            @Lift.canceled -= instance.OnLift;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -355,10 +410,10 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     public PlayerActions @Player => new PlayerActions(this);
     public interface IPlayerActions
     {
-        void OnMove(InputAction.CallbackContext context);
+        void OnMoveHorizontal(InputAction.CallbackContext context);
         void OnBrush(InputAction.CallbackContext context);
         void OnSqueak(InputAction.CallbackContext context);
         void OnEquip(InputAction.CallbackContext context);
-        void OnJump(InputAction.CallbackContext context);
+        void OnLift(InputAction.CallbackContext context);
     }
 }

@@ -6,7 +6,7 @@
             "id": "d0ad559d-904c-48ea-8bd2-a10c493143fa",
             "actions": [
                 {
-                    "name": "Move",
+                    "name": "MoveHorizontal",
                     "type": "Value",
                     "id": "fc5c11fb-cd88-4303-8ccd-b225d5d37213",
                     "expectedControlType": "Axis",
@@ -42,9 +42,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Jump",
+                    "name": "Lift",
                     "type": "Button",
-                    "id": "624a6fce-b6c4-4186-90d1-143adb3f56aa",
+                    "id": "899175f5-e872-4e90-98e4-df80349347fb",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -92,7 +92,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveHorizontal",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -103,7 +103,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveHorizontal",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -114,7 +114,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveHorizontal",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -125,7 +125,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveHorizontal",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -136,7 +136,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveHorizontal",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -147,7 +147,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveHorizontal",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -174,15 +174,70 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "d3ba2ace-fe7c-4a02-8e28-a887dd3bbe95",
+                    "name": "1D Axis",
+                    "id": "7c5ebf2e-dd5b-4730-8a16-1320d616d504",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lift",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "370bf72d-d6a3-400b-b380-d356496f140d",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lift",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "3b2173b0-678b-4da5-9250-3646419e5f68",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
+                    "action": "Lift",
                     "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "891e4bbc-239d-483f-955a-da5171b3e156",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lift",
+                    "isComposite": true,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "8327ebe6-53dc-439c-b333-a8e98be9048a",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lift",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "8db2572c-0221-4f04-87c7-8c71a3180126",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lift",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
