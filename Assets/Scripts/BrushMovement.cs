@@ -15,40 +15,68 @@ public class BrushMovement : MonoBehaviour
         //Fetch the Rigidbody component you attach from your GameObject
         _rigidbody2D = GetComponent<Rigidbody2D>();
         //Set the speed of the GameObject
-        moveSpeed = 200.0f;
+        moveSpeed = 80.0f;
     }
 
     void Update()
     {
+        
         if (Input.GetKey(KeyCode.UpArrow))
         {
             //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
             _rigidbody2D.velocity = transform.forward * moveSpeed;
         }
 
+        
         if (Input.GetKey(KeyCode.DownArrow))
         {
             //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
             _rigidbody2D.velocity = -transform.forward * moveSpeed;
         }
 
-        if (isBrushGrounded)
+        /*
+        if (Input.GetKey(KeyCode.DownArrow))
         {
+            var rotation = transform.parent.rotation.eulerAngles.z;
+
+            rotation += 1;
             
+            transform.parent.rotation = Quaternion.Euler(new Vector3(0, 0, rotation));
         }
+        */
+
+        isBrushGrounded = GroundedBrush();
+        print(isBrushGrounded);
+        
+    }
+
+    private bool GroundedBrush()
+    {
+        float offset = .3f;
+        
+        // Just visuals, no function
+        Debug.DrawRay(transform.GetChild(0).position + new Vector3(offset, 0, 0), Vector2.down);
+        Debug.DrawRay(transform.GetChild(0).position - new Vector3(offset, 0, 0), Vector2.down);
+                
+        // Draw raycasts downwards from brushRaycasterPosition, they are drawn with an offset on the x-axis on both sides
+        bool hitLeft = Physics2D.Raycast(transform.GetChild(0).position + new Vector3(offset, 0, 0), Vector2.down, 0.5f, whatIsGround);
+        bool hitRight = Physics2D.Raycast(transform.GetChild(0).position - new Vector3(offset, 0, 0), Vector2.down, 0.5f, whatIsGround);
+
+        if (hitLeft || hitRight)
+            return true;
+        else
+            return false;
+        
+        //return Physics2D.Raycast(transform.GetChild(0).position, Vector2.down, 0.5f, whatIsGround);
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        isBrushGrounded = true;
-        Debug.Log("IsBrushGrounded");
-        print("Grounded");
+        //isBrushGrounded = true;
     }
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        isBrushGrounded = false;
-        Debug.Log("BrushIsNOTGrounded");
-        print("NOTGrounded");
+        //isBrushGrounded = false;
     }
 }

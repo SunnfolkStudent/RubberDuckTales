@@ -53,51 +53,37 @@ public class PlayerMovement : MonoBehaviour
         {
             coyoteTimeCounter -= 1 * Time.deltaTime;
         }
-
-        if (_input.jumpPressed)
-        {
-            jumpBufferCounter = jumpBufferTime;
-        }
-        else
-        {
-            jumpBufferCounter -= 1 * Time.deltaTime;
-        }
         
-        // If we are eligible to Jump
-        if (jumpBufferCounter > 0 && coyoteTimeCounter > 0)
-        {
-            _desiredVelocity.y = jumpSpeed;
-            jumpBufferCounter = 0f;
-        }
-        
-        if (_input.jumpPressed && IsPlayerGrounded())
-        {
-            //_rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpSpeed);
-            _desiredVelocity.y = jumpSpeed;
-        }
-        
-        if (_input.jumpReleased && _desiredVelocity.y > 0f)
-        {
-            //_rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _rigidbody2D.velocity.y * 0.2f);
-            _desiredVelocity.y *= 0.5f;
-            coyoteTimeCounter = 0f;
-        }
         _rigidbody2D.velocity = _desiredVelocity;
     }
     
+    private bool ducking;
     private void FixedUpdate()
     {
-        if (_brushMovement.isBrushGrounded && _input.moveDirection != 0)
+        bool changeable = _input.lift == 0;
+        
+        if (changeable)
         {
-            if (_brushMovement.transform.rotation.eulerAngles.z < 180)
+            if (_brushMovement.transform.rotation.eulerAngles.z <= 180)
             {
-                _desiredVelocity = -_brushMovement.transform.forward * 80;
+                ducking = true;
+                print("Yes");
             }
             else
             {
-                _desiredVelocity = _brushMovement.transform.forward * 80;
+                ducking = false;
+                print("NOOOO");
             }
+        }
+        
+        if (_brushMovement.isBrushGrounded && _input.lift != 0)
+        {
             
+            
+            _desiredVelocity = (ducking ? -1 : 1 ) * 80 * _brushMovement.transform.forward;
+            
+            //_desiredVelocity = new Vector2(_rigidbody2D.velocity.x, 1);
+
         }
         else if (_input.moveDirection != 0) // != "not"
         {
