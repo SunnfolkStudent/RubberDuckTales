@@ -8,6 +8,9 @@ using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject Player;
+    public GameObject BrushRaycaster;
+    
     [Header("Movement")]
     public float moveSpeed = 5f;
     public float jumpSpeed = 12f;
@@ -33,12 +36,16 @@ public class PlayerMovement : MonoBehaviour
     [Header("Components")]
     private Rigidbody2D _rigidbody2D;
     private PlayerInput _input;
+    
+    [Header("Brush)")]
     public BrushMovement _brushMovement;
+    public float BrushRotationSpeed;
 
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _input = GetComponent<PlayerInput>();
+        BrushRaycaster = GameObject.Find("BrushRaycaster");
     }
 
     private void Update()
@@ -56,6 +63,8 @@ public class PlayerMovement : MonoBehaviour
         
         _rigidbody2D.velocity = _desiredVelocity;
     }
+    
+    
     
     private bool ducking;
     private void FixedUpdate()
@@ -78,9 +87,9 @@ public class PlayerMovement : MonoBehaviour
         
         if (_brushMovement.isBrushGrounded && _input.lift != 0)
         {
+            Vector3 direction = BrushRaycaster.transform.position - transform.position;
             
-            
-            _desiredVelocity = (ducking ? -1 : 1 ) * 80 * _brushMovement.transform.forward;
+            _desiredVelocity = Quaternion.Euler(0,0,(ducking ? -1 : 1 ) * 90) * direction * BrushRotationSpeed;
             
             //_desiredVelocity = new Vector2(_rigidbody2D.velocity.x, 1);
 
@@ -99,9 +108,24 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody2D.velocity = _desiredVelocity;
     }
 
-    private bool IsPlayerGrounded()
+    public bool IsPlayerGrounded()
+    {
+        return PlayerIsGrounded();
+    }
+
+    private bool PlayerIsGrounded()
     {
         return Physics2D.Raycast(transform.position, Vector2.down, 0.6f, whatIsGround);
     }
-    
+
+    public void Boost(float buff)
+    {
+        Debug.Log("Boost");
+        moveSpeed = moveSpeed * buff;
+    }
+
+    public void ResetBoost(float buff)
+    {
+        moveSpeed = moveSpeed / buff;
+    }
 }

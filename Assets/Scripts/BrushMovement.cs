@@ -4,7 +4,7 @@ using UnityEngine;
 public class BrushMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rigidbody2D;
-    public float moveSpeed;
+    public float BrushSpeed = 80f;
     [SerializeField] private LayerMask whatIsGround;
     public float InputManager;
 
@@ -15,7 +15,6 @@ public class BrushMovement : MonoBehaviour
         //Fetch the Rigidbody component you attach from your GameObject
         _rigidbody2D = GetComponent<Rigidbody2D>();
         //Set the speed of the GameObject
-        moveSpeed = 80.0f;
     }
 
     void Update()
@@ -24,14 +23,14 @@ public class BrushMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
-            _rigidbody2D.velocity = transform.forward * moveSpeed;
+            _rigidbody2D.velocity = transform.forward * BrushSpeed;
         }
 
         
         if (Input.GetKey(KeyCode.DownArrow))
         {
             //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
-            _rigidbody2D.velocity = -transform.forward * moveSpeed;
+            _rigidbody2D.velocity = -transform.forward * BrushSpeed;
         }
 
         /*
