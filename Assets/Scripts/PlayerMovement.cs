@@ -13,16 +13,11 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Movement")]
     public float moveSpeed = 5f;
-    public float jumpSpeed = 12f;
     private Vector2 _desiredVelocity;
 
     [Header("CoyoteTime")] 
     public float coyoteTime = 0.2f;
     public float coyoteTimeCounter;
-
-    [Header("JumpBuffer")] 
-    public float jumpBufferTime = 0.2f;
-    public float jumpBufferCounter;
     
     [Header("Acceleration")] 
     public float accelerationTime = 0.10f;
@@ -87,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
         
         if (_brushMovement.isBrushGrounded && _input.lift != 0)
         {
-            Vector3 direction = BrushRaycaster.transform.position - transform.position;
+            Vector2 direction = BrushRaycaster.transform.position - transform.position;
             
             _desiredVelocity = Quaternion.Euler(0,0,(ducking ? -1 : 1 ) * 90) * direction * BrushRotationSpeed;
             
@@ -116,16 +111,5 @@ public class PlayerMovement : MonoBehaviour
     private bool PlayerIsGrounded()
     {
         return Physics2D.Raycast(transform.position, Vector2.down, 0.6f, whatIsGround);
-    }
-
-    public void Boost(float buff)
-    {
-        Debug.Log("Boost");
-        moveSpeed = moveSpeed * buff;
-    }
-
-    public void ResetBoost(float buff)
-    {
-        moveSpeed = moveSpeed / buff;
     }
 }
