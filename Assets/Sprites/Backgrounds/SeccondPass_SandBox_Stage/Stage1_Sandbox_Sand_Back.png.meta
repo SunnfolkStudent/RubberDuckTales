@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b423587b9ddab96478d1d3062c82fdaa
+guid: 4a7649cf4d5c4b848841767e1fa8c0c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 586646535936361103
-    second: Stage1_Sandbox_SandCastleBucket_0
+      213: -800907275302587469
+    second: Stage1_Sandbox_Sand_Back_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stage1_Sandbox_SandCastleBucket_0
+      name: Stage1_Sandbox_Sand_Back_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 34
-        width: 207
-        height: 180
+        x: 0
+        y: 0
+        width: 600
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f82433f8aef242800800000000000000
-      internalID: 586646535936361103
+      spriteID: 3b33095931b92e4f0800000000000000
+      internalID: -800907275302587469
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage1_Sandbox_Sand_Back_0: -800907275302587469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

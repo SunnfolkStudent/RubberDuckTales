@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bb9a76bbb22189244b335b25665d8205
+guid: 19f6458ac45a5ca4faebfce7db464d5a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -157495361455018688
-    second: Stage1_Sandbox_Tree_Front_0
+      213: 4354379986417284182
+    second: Stage1_Sandbox_Sandbox_Wall_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stage1_Sandbox_Tree_Front_0
+      name: Stage1_Sandbox_Sandbox_Wall_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 600
-        height: 245
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04da3be9dc670ddf0800000000000000
-      internalID: -157495361455018688
+      spriteID: 654f873f68ddd6c30800000000000000
+      internalID: 4354379986417284182
       vertices: []
       indices: 
       edges: []
