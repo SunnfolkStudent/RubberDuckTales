@@ -24,13 +24,16 @@ public class PlayerInput : MonoBehaviour
     
     public float moveDirection;
     public float lift;
-    public bool equipPressed;
+    public float squeak;
+    public float brush; 
     
     // Update is called once per frame
     void Update()
     {
         moveDirection = _controls.Player.MoveHorizontal.ReadValue<float>();
         lift = _controls.Player.Lift.ReadValue<float>();
-        equipPressed = _controls.Player.Equip.WasPressedThisFrame();
+        squeak = _controls.Player.Squeak.ReadValue<float>();
+        brush = _controls.Player.Brush.ReadValue<float>();
+
     }
 }

@@ -6,28 +6,29 @@ public class BrushMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D _rigidbody2D;
     public float BrushSpeed = 80f;
     [SerializeField] private LayerMask whatIsGround;
-    public float InputManager;
-
+    private PlayerInput _input;
+    
     public bool isBrushGrounded;
     
     void Start()
     {
         //Fetch the Rigidbody component you attach from your GameObject
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        //Set the speed of the GameObject
+        _input = GetComponent<PlayerInput>();
+
     }
 
     void Update()
     {
-        
-        if (Input.GetKey(KeyCode.UpArrow))
+
+        if (_input.brush > 0)
         {
             //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
             _rigidbody2D.velocity = transform.forward * BrushSpeed;
         }
 
         
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (_input.brush < 0)
         {
             //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
             _rigidbody2D.velocity = -transform.forward * BrushSpeed;

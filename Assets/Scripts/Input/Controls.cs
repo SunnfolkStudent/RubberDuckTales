@@ -55,15 +55,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Equip"",
-                    ""type"": ""Button"",
-                    ""id"": ""df5f5579-9a69-431f-a7a4-c502847898cd"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
                     ""name"": ""Lift"",
                     ""type"": ""Button"",
                     ""id"": ""899175f5-e872-4e90-98e4-df80349347fb"",
@@ -88,7 +79,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""6099f272-fd00-4523-a909-cc4ce69b83c8"",
-                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -99,7 +90,40 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""d1ede74b-8104-49a3-91e4-24abe18697b6"",
-                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Brush"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""79dad8b1-f498-410e-84dd-8ea6ed9040e4"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Brush"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""77fad7d4-ce26-450d-b783-5785a171619e"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Brush"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""833ba540-7f5b-4cbf-af92-69526471d85e"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -176,7 +200,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""229058f5-352a-4aae-bc75-3096e0495b6b"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -186,12 +210,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""9bf328a8-d315-469d-9769-a72fa89d93e3"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""id"": ""b3cea5a7-4fb5-44d7-9c0b-5179ef3874da"",
+                    ""path"": ""<Gamepad>/buttonWest"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Equip"",
+                    ""action"": ""Squeak"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -209,7 +233,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""370bf72d-d6a3-400b-b380-d356496f140d"",
-                    ""path"": ""<Keyboard>/s"",
+                    ""path"": ""<Keyboard>/v"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -220,7 +244,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""3b2173b0-678b-4da5-9250-3646419e5f68"",
-                    ""path"": ""<Keyboard>/w"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -242,7 +266,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""8327ebe6-53dc-439c-b333-a8e98be9048a"",
-                    ""path"": ""<Gamepad>/leftStick/up"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -253,7 +277,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""8db2572c-0221-4f04-87c7-8c71a3180126"",
-                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -271,7 +295,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_MoveHorizontal = m_Player.FindAction("MoveHorizontal", throwIfNotFound: true);
         m_Player_Brush = m_Player.FindAction("Brush", throwIfNotFound: true);
         m_Player_Squeak = m_Player.FindAction("Squeak", throwIfNotFound: true);
-        m_Player_Equip = m_Player.FindAction("Equip", throwIfNotFound: true);
         m_Player_Lift = m_Player.FindAction("Lift", throwIfNotFound: true);
     }
 
@@ -337,7 +360,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_MoveHorizontal;
     private readonly InputAction m_Player_Brush;
     private readonly InputAction m_Player_Squeak;
-    private readonly InputAction m_Player_Equip;
     private readonly InputAction m_Player_Lift;
     public struct PlayerActions
     {
@@ -346,7 +368,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @MoveHorizontal => m_Wrapper.m_Player_MoveHorizontal;
         public InputAction @Brush => m_Wrapper.m_Player_Brush;
         public InputAction @Squeak => m_Wrapper.m_Player_Squeak;
-        public InputAction @Equip => m_Wrapper.m_Player_Equip;
         public InputAction @Lift => m_Wrapper.m_Player_Lift;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
@@ -366,9 +387,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Squeak.started += instance.OnSqueak;
             @Squeak.performed += instance.OnSqueak;
             @Squeak.canceled += instance.OnSqueak;
-            @Equip.started += instance.OnEquip;
-            @Equip.performed += instance.OnEquip;
-            @Equip.canceled += instance.OnEquip;
             @Lift.started += instance.OnLift;
             @Lift.performed += instance.OnLift;
             @Lift.canceled += instance.OnLift;
@@ -385,9 +403,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Squeak.started -= instance.OnSqueak;
             @Squeak.performed -= instance.OnSqueak;
             @Squeak.canceled -= instance.OnSqueak;
-            @Equip.started -= instance.OnEquip;
-            @Equip.performed -= instance.OnEquip;
-            @Equip.canceled -= instance.OnEquip;
             @Lift.started -= instance.OnLift;
             @Lift.performed -= instance.OnLift;
             @Lift.canceled -= instance.OnLift;
@@ -413,7 +428,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnMoveHorizontal(InputAction.CallbackContext context);
         void OnBrush(InputAction.CallbackContext context);
         void OnSqueak(InputAction.CallbackContext context);
-        void OnEquip(InputAction.CallbackContext context);
         void OnLift(InputAction.CallbackContext context);
     }
 }
