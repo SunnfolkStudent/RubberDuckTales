@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage1_Sandbox_SandCastleBucket_0: 586646535936361103
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
