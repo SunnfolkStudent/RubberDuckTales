@@ -223,12 +223,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   BrushRaycaster: {fileID: 0}
-  moveSpeed: 10
-  jumpSpeed: 12
+  moveSpeed: 12
   coyoteTime: 0.2
   coyoteTimeCounter: 0
-  jumpBufferTime: 0.2
-  jumpBufferCounter: 0
   accelerationTime: 0.02
   groundFriction: 0.1
   airFriction: 0.005
@@ -239,7 +236,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   _brushMovement: {fileID: 5542908656207895137}
-  BrushRotationSpeed: 3
+  BrushRotationSpeed: 6
 --- !u!114 &2669286265207035344
 MonoBehaviour:
   m_ObjectHideFlags: 0
