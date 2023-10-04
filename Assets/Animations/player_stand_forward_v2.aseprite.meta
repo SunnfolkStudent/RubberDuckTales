@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21365510f84680f4d8575719dedaa618
+guid: b47c26ce3b2aedc458e53e04702ceaa3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 30
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638320277227822746
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 68
       width: 32
       height: 22
-    spriteID: 117d006d8fd047a4e96799f712571788
+    spriteID: e271307ceb9babd46ac10517d5ab4bd9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 37
       width: 32
       height: 23
-    spriteID: fff36f85e0dfee749bd9faaa1145dc68
+    spriteID: 8a5be4ee0001c164a908362befbde29d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 25
-    spriteID: 6788319652e9f9c4ea2f8bbc67a30b1e
+    spriteID: f3a297cc341c576408adbcc9c482d476
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -195,7 +195,7 @@ ScriptedImporter:
         y: 3
         width: 32
         height: 22
-      spriteId: 117d006d8fd047a4e96799f712571788
+      spriteId: e271307ceb9babd46ac10517d5ab4bd9
     - name: player_stand_forward_v2_Frame_1
       frameIndex: 1
       cellRect:
@@ -203,7 +203,7 @@ ScriptedImporter:
         y: 3
         width: 32
         height: 23
-      spriteId: fff36f85e0dfee749bd9faaa1145dc68
+      spriteId: 8a5be4ee0001c164a908362befbde29d
     - name: player_stand_forward_v2_Frame_2
       frameIndex: 2
       cellRect:
@@ -211,32 +211,10 @@ ScriptedImporter:
         y: 3
         width: 31
         height: 25
-      spriteId: 6788319652e9f9c4ea2f8bbc67a30b1e
+      spriteId: f3a297cc341c576408adbcc9c482d476
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
