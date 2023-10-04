@@ -727,7 +727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4043787845956851486, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level 1 - Sandbox
+      value: Eivind
       objectReference: {fileID: 0}
     - target: {fileID: 4043787845956851486, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -794,6 +794,14 @@ PrefabInstance:
       value: 'Start
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631073335824266617, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631073335824266617, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
