@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc0e450b5aae5db43948ab37aeddbbcf
+guid: ff5370fa17bf62141a106d3117329710
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 40
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638320277331682617
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 24
-    spriteID: 49d3183bf199b994e875860fad84219f
+    spriteID: 99b741a4b2f887549a4db89d2983f0df
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 25
-    spriteID: 9749563329573ca409da8a7c8ab1ede0
+    spriteID: 0c336c8373d63674197d70583ade127f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 24
-    spriteID: 2ba95b2038a3e464497059f78a0a911e
+    spriteID: 709b481ac45195b4da9dd962e82cfb97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 36
       width: 31
       height: 24
-    spriteID: c336773e1f4c1594bb5110138f2fc751
+    spriteID: d2bf24a7298fdb14dad17ff07cbf4c14
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: 3
         width: 31
         height: 24
-      spriteId: 49d3183bf199b994e875860fad84219f
+      spriteId: 99b741a4b2f887549a4db89d2983f0df
     - name: player_waddle_forward_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: 3
         width: 31
         height: 25
-      spriteId: 9749563329573ca409da8a7c8ab1ede0
+      spriteId: 0c336c8373d63674197d70583ade127f
     - name: player_waddle_forward_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: 3
         width: 31
         height: 24
-      spriteId: 2ba95b2038a3e464497059f78a0a911e
+      spriteId: 709b481ac45195b4da9dd962e82cfb97
     - name: player_waddle_forward_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,32 +239,10 @@ ScriptedImporter:
         y: 3
         width: 31
         height: 24
-      spriteId: c336773e1f4c1594bb5110138f2fc751
+      spriteId: d2bf24a7298fdb14dad17ff07cbf4c14
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
