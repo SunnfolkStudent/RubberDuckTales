@@ -2756,6 +2756,30 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: Song 2 - Park
+    clip: {fileID: 8300000, guid: 6e31640e7ee06584a84f1cdeebc90bab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Song 3 - Street
+    clip: {fileID: 8300000, guid: 60790fc897a027f449d9ec38b72eef85, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Song 4 - Outside Apartment
+    clip: {fileID: 8300000, guid: 133958581b33abe408fd91775422c778, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Song 5 - Bathroom
+    clip: {fileID: 8300000, guid: 8a3e61e317e344742a612ecec5c91685, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
 --- !u!4 &1843504295
 Transform:
   m_ObjectHideFlags: 0
@@ -2765,7 +2789,7 @@ Transform:
   m_GameObject: {fileID: 1843504293}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -55.04, y: -11.09, z: 3.7933416}
+  m_LocalPosition: {x: -36.73, y: 1.99, z: 3.7933416}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
