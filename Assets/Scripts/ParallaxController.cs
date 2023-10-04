@@ -18,6 +18,8 @@ public class ParallaxController : MonoBehaviour
 
     [Range(0.01f, 0.05f)] 
     public float parallaxSpeed;
+    
+    
 
     private void Start()
     {
