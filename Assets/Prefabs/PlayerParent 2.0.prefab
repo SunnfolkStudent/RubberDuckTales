@@ -107,7 +107,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_Sprite: {fileID: 21300000, guid: fc422c5885c371d4fa5be327cd0fc877, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -251,7 +251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDirection: 0
   lift: 0
-  equipPressed: 0
+  squeak: 0
+  brush: 0
 --- !u!1 &7160369423581189167
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +333,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 48
   m_Sprite: {fileID: 21300000, guid: ef0edb0aa6a028142a4e61748ace74cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -464,7 +465,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDirection: 0
   lift: 0
-  equipPressed: 0
+  squeak: 0
+  brush: 0
 --- !u!114 &5542908656207895137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,7 +484,6 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
-  InputManager: 0
   isBrushGrounded: 0
 --- !u!58 &4772010071529752769
 CircleCollider2D:
