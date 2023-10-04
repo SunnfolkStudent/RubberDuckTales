@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
   parallaxEffect: 0.7
 --- !u!1 &3184567633547659970
 GameObject:
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
   parallaxEffect: 0.9
 --- !u!1 &3304342563569123997
 GameObject:
@@ -669,7 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
   parallaxEffect: 0.3
 --- !u!1 &4710175644411345246
 GameObject:
