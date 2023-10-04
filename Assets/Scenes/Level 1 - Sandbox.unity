@@ -120,11 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &76971078 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2072558604566837882, guid: 66ed2416dc1fe1c47aa69a8a8e940f82, type: 3}
-  m_PrefabInstance: {fileID: 19909573764341743}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &574585068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6727865052879374634, guid: e6404a66035c53942807f5d4e86e30d7, type: 3}
@@ -289,7 +284,7 @@ PrefabInstance:
     - target: {fileID: 6217924544685850826, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
       propertyPath: m_Follow
       value: 
-      objectReference: {fileID: 76971078}
+      objectReference: {fileID: 0}
     - target: {fileID: 6217924544685850826, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
       propertyPath: m_Lens.OrthographicSize
       value: 4.4
@@ -4413,7 +4408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7956555492980452763, guid: 66ed2416dc1fe1c47aa69a8a8e940f82, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.08589517
+      value: -0.08589136
       objectReference: {fileID: 0}
     - target: {fileID: 7956555492980452763, guid: 66ed2416dc1fe1c47aa69a8a8e940f82, type: 3}
       propertyPath: m_ConnectedAnchor.y
