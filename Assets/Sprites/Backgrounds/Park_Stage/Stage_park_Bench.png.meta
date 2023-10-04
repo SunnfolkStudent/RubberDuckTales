@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage_park_Bench_0: 861121116326443310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

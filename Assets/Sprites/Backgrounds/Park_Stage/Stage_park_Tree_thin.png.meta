@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage_park_Tree_thin_0: -4444879093417335262
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

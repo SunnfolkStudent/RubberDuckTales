@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage_park_sky_0: -5927532776672708787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

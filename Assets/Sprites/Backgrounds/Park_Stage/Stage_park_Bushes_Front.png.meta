@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage_park_Bushes_Front_0: -6837785676348813585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
