@@ -212,7 +212,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2518797722333385396}
   - component: {fileID: 3913562738678531139}
-  - component: {fileID: 7734955623488094661}
   m_Layer: 0
   m_Name: Sand castle (2)
   m_TagString: Untagged
@@ -287,20 +286,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7734955623488094661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272654266870800888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  parallaxEffect: 0.2
 --- !u!1 &1967677400157229921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,7 +1295,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2413992260219305709}
   - component: {fileID: 2748562989297586250}
-  - component: {fileID: 2022339412346733745}
   m_Layer: 0
   m_Name: Sand castle
   m_TagString: Untagged
@@ -1385,20 +1369,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2022339412346733745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5975949557756768810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  parallaxEffect: 0.2
 --- !u!1 &6043839686393871686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,7 +1480,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1903675594658179545}
   - component: {fileID: 1455728439952964036}
-  - component: {fileID: 7731123405228518359}
   m_Layer: 0
   m_Name: Sand castle (1)
   m_TagString: Untagged
@@ -1585,20 +1554,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7731123405228518359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6095747831259519462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  parallaxEffect: 0.2
 --- !u!1 &6501997630492582011
 GameObject:
   m_ObjectHideFlags: 0
