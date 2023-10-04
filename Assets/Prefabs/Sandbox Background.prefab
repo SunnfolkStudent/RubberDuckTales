@@ -2219,5 +2219,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
   parallaxEffect: 1
