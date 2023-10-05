@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 01c84ace131a1a948860129483e9498c
+guid: 76be0fec7038c0142b748d8c52d28523
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8553128108018327933
-    second: Stage_Road_Sky_0
+      213: -3047406408206119487
+    second: Stage_road_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,12 +98,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stage_Road_Sky_0
+      name: Stage_road_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 600
+        width: 1920
         height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38e982b5d4f2d4980800000000000000
-      internalID: -8553128108018327933
+      spriteID: 1cd00a0840075b5d0800000000000000
+      internalID: -3047406408206119487
       vertices: []
       indices: 
       edges: []
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Stage_Road_Sky_0: -8553128108018327933
+      Stage_road_0: -3047406408206119487
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 01c84ace131a1a948860129483e9498c
+guid: 79f9efbafd9bd1045be8100409682d6e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8553128108018327933
-    second: Stage_Road_Sky_0
+      213: -2812696919068813635
+    second: Stage_road_SewerHole_Big_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -56,7 +56,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -98,38 +98,72 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stage_Road_Sky_0
+      name: Stage_road_SewerHole_Big_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 600
-        height: 270
+        width: 219
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38e982b5d4f2d4980800000000000000
-      internalID: -8553128108018327933
+      spriteID: db6511eed0b47f8d0800000000000000
+      internalID: -2812696919068813635
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline: []
-    physicsShape: []
+    outline:
+    - - {x: 59.5, y: 21.5}
+      - {x: 23.338257, y: 24.5}
+      - {x: -26.5, y: 24.5}
+      - {x: -60.5, y: 21.5}
+      - {x: -93.5, y: 14.5}
+      - {x: -109.5, y: 3.670761}
+      - {x: -109.5, y: -4.5}
+      - {x: -91.5, y: -14.5}
+      - {x: -74.5, y: -18.5}
+      - {x: -26.5, y: -24.5}
+      - {x: 28.5, y: -24.5}
+      - {x: 71.5, y: -19.5}
+      - {x: 97.5, y: -12.5}
+      - {x: 109.5, y: -4.5}
+      - {x: 109.5, y: 5.5}
+      - {x: 89.5, y: 15.5}
+    physicsShape:
+    - - {x: -32.5, y: 24.5}
+      - {x: -74.5, y: 18.5}
+      - {x: -94.5, y: 14.5}
+      - {x: -109.5, y: 4.5}
+      - {x: -109.5, y: -4.5}
+      - {x: -89.5, y: -15.5}
+      - {x: -58.5, y: -21.5}
+      - {x: -23.5, y: -24.5}
+      - {x: 25.5, y: -24.5}
+      - {x: 49.5, y: -23.5}
+      - {x: 81.5, y: -17.5}
+      - {x: 102.5, y: -9.5}
+      - {x: 109.5, y: -3.5}
+      - {x: 109.5, y: 4.5}
+      - {x: 97.5, y: 12.5}
+      - {x: 73.5, y: 18.5}
+      - {x: 48.5, y: 22.5}
+      - {x: 23.5, y: 24.5}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Stage_Road_Sky_0: -8553128108018327933
+      Stage_road_SewerHole_Big_0: -2812696919068813635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

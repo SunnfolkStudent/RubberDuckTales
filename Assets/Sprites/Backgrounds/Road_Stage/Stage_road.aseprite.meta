@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d6f8020ccecdd8740a2140557b172335
+guid: ca3439dd44922a048b916c97f33393bf
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: im lovin it
+  - name: Stage_road
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -128,9 +128,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 48
-      height: 64
-    spriteID: e6f1116e092a91748afe00ee5c9aef6e
+      width: 1920
+      height: 272
+    spriteID: 586bd5120fd4bb14691ab55253afe82e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 57160187
-    name: im lovin it
+    guid: 1559797551
+    name: Stage_road
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: im lovin it
+    - name: Stage_road
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 48
-        height: 64
-      spriteId: e6f1116e092a91748afe00ee5c9aef6e
+        width: 1920
+        height: 272
+      spriteId: 586bd5120fd4bb14691ab55253afe82e
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 48, y: 64}
+  canvasSize: {x: 1920, y: 270}
