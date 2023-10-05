@@ -223,11 +223,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 6478679403930145565}
   BrushRaycaster: {fileID: 6151305596622574003}
-  moveSpeed: 10
+  moveSpeed: 6
   playerFallSpeed: 0.4
   coyoteTime: 0.2
   coyoteTimeCounter: 0
-  accelerationTime: 0.1
+  accelerationTime: 0.03
   groundFriction: 0.1
   airFriction: 0.005
   whatIsGround:
@@ -268,7 +268,6 @@ GameObject:
   - component: {fileID: 1612162826865959428}
   - component: {fileID: 4305551716846310375}
   - component: {fileID: 7956555492980452763}
-  - component: {fileID: 762010035792294665}
   - component: {fileID: 3321948510446484092}
   - component: {fileID: 5542908656207895137}
   - component: {fileID: 4772010071529752769}
@@ -391,7 +390,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.066274494, y: -0.9224068}
-  m_ConnectedAnchor: {x: -0.08589136, y: -0.19941163}
+  m_ConnectedAnchor: {x: -0.08589136, y: -0.19941151}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -401,59 +400,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!60 &762010035792294665
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7160369423581189167}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
-    newSize: {x: 0.5, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.125, y: 0.75}
-      - {x: -0.125, y: -0.9375}
-      - {x: 0, y: -0.9375}
-      - {x: 0, y: 0.375}
-      - {x: 0.3125, y: 0.375}
-      - {x: 0.3125, y: 0.75}
-  m_UseDelaunayMesh: 0
 --- !u!114 &3321948510446484092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,7 +429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody2D: {fileID: 4305551716846310375}
-  BrushSpeed: 130
+  BrushSpeed: 110
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
