@@ -120,6 +120,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &126076676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
+  m_PrefabInstance: {fileID: 679280256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &126076677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126076676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 126076676}
+  parallaxEffect: 0.9
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,11 +257,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6072527174499055998, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -69.53683
+      value: -69.40114
       objectReference: {fileID: 0}
     - target: {fileID: 6072527174499055998, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.62661
+      value: -6.24147
       objectReference: {fileID: 0}
     - target: {fileID: 6072527174499055998, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
       propertyPath: m_LocalPosition.z
@@ -294,11 +313,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6927167355586048245, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.7831726
+      value: -5.9188614
       objectReference: {fileID: 0}
     - target: {fileID: 6927167355586048245, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9633904
+      value: -3.3485303
       objectReference: {fileID: 0}
     - target: {fileID: 6927167355586048245, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
       propertyPath: m_LocalPosition.z
@@ -307,7 +326,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 126076677}
   m_SourcePrefab: {fileID: 100100000, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
 --- !u!1001 &986269511
 PrefabInstance:
@@ -363,7 +385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8863850972886773108, guid: bd82fef0a3b9d5d40a611bddbc71f54d, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8863850972886773108, guid: bd82fef0a3b9d5d40a611bddbc71f54d, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size

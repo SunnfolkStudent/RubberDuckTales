@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2 - Park.unity
     guid: b51228edc4058694bb4c488738ae7a05
   - enabled: 1
+    path: Assets/Scenes/Level 3 - Street.unity
+    guid: f95c7caee2de40d43834c4417c86dba6
+  - enabled: 1
     path: Assets/Scenes/Ben. Experimental.unity
     guid: 15b5a9e5a5ec08f44ae7fdcf86088751
   - enabled: 1

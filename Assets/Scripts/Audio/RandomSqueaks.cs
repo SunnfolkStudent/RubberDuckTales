@@ -11,7 +11,7 @@ public class RandomSqueaks : MonoBehaviour
     public AudioClip[] squeaks;
     public AudioSource source;
     public PlayerMovement playerMovement;
-    public float timer = 5;
+    public float timer = 4;
     [Range(0.1f, 0.5f)] 
     public float volumeChangeMultiplier = 0.2f;
     /* public float pitchChangeMultiplier = 0.2f; */
@@ -36,7 +36,7 @@ public class RandomSqueaks : MonoBehaviour
         }
         else
         {
-            if (playerMovement.IsPlayerGrounded() & 0.4f < playerMovement.playerFallSpeed) return;
+            if (playerMovement.IsPlayerGrounded() & 0.35f < playerMovement.playerFallSpeed) return;
             source.clip = squeaks[Random.Range(0, squeaks.Length)];
             source.volume = Random.Range(1 - volumeChangeMultiplier, 1);
             /* source.pitch = Random.Range(1 - pitchChangeMultiplier, 1+pitchChangeMultiplier); */
