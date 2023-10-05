@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage_road_With_CrossWalkt_0: 5604794688291307976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

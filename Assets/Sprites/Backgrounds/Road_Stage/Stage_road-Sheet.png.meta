@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage_road-Sheet_0: 8345472237440362928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

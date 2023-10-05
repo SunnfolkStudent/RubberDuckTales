@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stage_road_lampPost_0: -3710781440383212023
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

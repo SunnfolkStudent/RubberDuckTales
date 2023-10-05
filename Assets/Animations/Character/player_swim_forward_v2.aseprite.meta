@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ff5370fa17bf62141a106d3117329710
+guid: 269206dd8ae72c64899b44924ec20638
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638321025447663085
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,27 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: player_waddle_forward_Frame_0
-    originalName: 
-    pivot: {x: 0.516129, y: -0.125}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 43
-      y: 4
-      width: 31
-      height: 24
-    spriteID: 99b741a4b2f887549a4db89d2983f0df
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 43, y: 4}
-  - name: player_waddle_forward_Frame_1
+  - name: player_swim_forward_v2_Frame_0
     originalName: 
     pivot: {x: 0.516129, y: -0.12}
     alignment: 9
@@ -150,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 25
-    spriteID: 0c336c8373d63674197d70583ade127f
+    spriteID: 7b6e4b4d38f12a8449133734bf9f4655
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,9 +139,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: player_waddle_forward_Frame_2
+  - name: player_swim_forward_v2_Frame_1
     originalName: 
-    pivot: {x: 0.516129, y: -0.125}
+    pivot: {x: 0.516129, y: -0.08}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 4
+      width: 31
+      height: 25
+    spriteID: 968afa56c49c2fd4887a42646bd696f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 4}
+  - name: player_swim_forward_v2_Frame_2
+    originalName: 
+    pivot: {x: 0.516129, y: -0.04}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -169,8 +169,8 @@ ScriptedImporter:
       x: 82
       y: 4
       width: 31
-      height: 24
-    spriteID: 709b481ac45195b4da9dd962e82cfb97
+      height: 25
+    spriteID: f05c091ccb439774aba99cdf0ef12b67
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,18 +179,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 82, y: 4}
-  - name: player_waddle_forward_Frame_3
+  - name: player_swim_forward_v2_Frame_3
     originalName: 
-    pivot: {x: 0.516129, y: -0.125}
+    pivot: {x: 0.516129, y: -0.083333336}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 36
+      x: 4
+      y: 37
       width: 31
       height: 24
-    spriteID: d2bf24a7298fdb14dad17ff07cbf4c14
+    spriteID: b64bc3bc2cb8b7a4eb253d93a4c59ff9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -198,51 +198,101 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 36}
+    uvTransform: {x: 4, y: 37}
+  - name: player_swim_forward_v2_Frame_4
+    originalName: 
+    pivot: {x: 0.516129, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 37
+      width: 31
+      height: 24
+    spriteID: 04c61a6e5d4480c4f8fbed95bfe973e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 37}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1640675077
-    name: player_waddle_forward
+    guid: 632533719
+    name: player_swim_forward_v2
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: player_waddle_forward_Frame_0
+    - name: player_swim_forward_v2_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 3
         width: 31
-        height: 24
-      spriteId: 99b741a4b2f887549a4db89d2983f0df
-    - name: player_waddle_forward_Frame_1
+        height: 25
+      spriteId: 7b6e4b4d38f12a8449133734bf9f4655
+    - name: player_swim_forward_v2_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
-        y: 3
+        y: 2
         width: 31
         height: 25
-      spriteId: 0c336c8373d63674197d70583ade127f
-    - name: player_waddle_forward_Frame_2
+      spriteId: 968afa56c49c2fd4887a42646bd696f0
+    - name: player_swim_forward_v2_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
-        y: 3
+        y: 1
+        width: 31
+        height: 25
+      spriteId: f05c091ccb439774aba99cdf0ef12b67
+    - name: player_swim_forward_v2_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 2
         width: 31
         height: 24
-      spriteId: 709b481ac45195b4da9dd962e82cfb97
-    - name: player_waddle_forward_Frame_3
-      frameIndex: 3
+      spriteId: b64bc3bc2cb8b7a4eb253d93a4c59ff9
+    - name: player_swim_forward_v2_Frame_4
+      frameIndex: 4
       cellRect:
         x: 0
         y: 3
         width: 31
         height: 24
-      spriteId: d2bf24a7298fdb14dad17ff07cbf4c14
+      spriteId: 04c61a6e5d4480c4f8fbed95bfe973e8
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b0cced846d41cec4ebe5cf58e2abdfe7
+guid: 25bcdebf437f2fe46bd35a0a86aa8636
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638321025447653097
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,10 +119,10 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: player_swim_idle_forward_v2_Frame_0
+  - name: player_lay_forward_v2_Frame_0
     originalName: 
-    pivot: {x: 0.516129, y: -0.12}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 25
-    spriteID: 78b6298f6fb41a14caf5c4215cc06075
+    spriteID: 4f7f61e71573f0f488ffbebf4f8d8231
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,58 +139,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: player_swim_idle_forward_v2_Frame_1
+  - name: player_lay_forward_v2_Frame_1
     originalName: 
-    pivot: {x: 0.516129, y: -0.08}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 43
-      y: 4
-      width: 31
-      height: 25
-    spriteID: fb50d69651c25c5418f28c417ba6d348
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 43, y: 4}
-  - name: player_swim_idle_forward_v2_Frame_2
-    originalName: 
-    pivot: {x: 0.516129, y: -0.04}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 82
-      y: 4
-      width: 31
-      height: 25
-    spriteID: f1b14a80895e92b43822ac661f1fb620
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 82, y: 4}
-  - name: player_swim_idle_forward_v2_Frame_3
-    originalName: 
-    pivot: {x: 0.516129, y: -0.083333336}
+    pivot: {x: 0.5, y: -0.13043478}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 37
-      width: 31
-      height: 24
-    spriteID: 293de200f48b36540897b8207b524fe8
+      width: 32
+      height: 23
+    spriteID: 5e19557725d7eb642880b214f7710861
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -199,18 +159,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 37}
-  - name: player_swim_idle_forward_v2_Frame_4
+  - name: player_lay_forward_v2_Frame_2
     originalName: 
-    pivot: {x: 0.516129, y: -0.125}
+    pivot: {x: 0.5, y: -0.13636364}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 37
-      width: 31
-      height: 24
-    spriteID: 72125e4402a47174bb8b4a0b5e542388
+      x: 4
+      y: 68
+      width: 32
+      height: 22
+    spriteID: 616ebe625d5d0c548a92b68d642bb54a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,59 +178,65 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 37}
+    uvTransform: {x: 4, y: 68}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1156123050
-    name: player_swim_idle_forward_v2
+    guid: -621873317
+    name: player_lay_forward_v2
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: player_swim_idle_forward_v2_Frame_0
+    - name: player_lay_forward_v2_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 3
         width: 31
         height: 25
-      spriteId: 78b6298f6fb41a14caf5c4215cc06075
-    - name: player_swim_idle_forward_v2_Frame_1
+      spriteId: 4f7f61e71573f0f488ffbebf4f8d8231
+    - name: player_lay_forward_v2_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
-        y: 2
-        width: 31
-        height: 25
-      spriteId: fb50d69651c25c5418f28c417ba6d348
-    - name: player_swim_idle_forward_v2_Frame_2
+        y: 3
+        width: 32
+        height: 23
+      spriteId: 5e19557725d7eb642880b214f7710861
+    - name: player_lay_forward_v2_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
-        y: 1
-        width: 31
-        height: 25
-      spriteId: f1b14a80895e92b43822ac661f1fb620
-    - name: player_swim_idle_forward_v2_Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 0
-        y: 2
-        width: 31
-        height: 24
-      spriteId: 293de200f48b36540897b8207b524fe8
-    - name: player_swim_idle_forward_v2_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 0
         y: 3
-        width: 31
-        height: 24
-      spriteId: 72125e4402a47174bb8b4a0b5e542388
+        width: 32
+        height: 22
+      spriteId: 616ebe625d5d0c548a92b68d642bb54a
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
