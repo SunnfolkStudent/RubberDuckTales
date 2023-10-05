@@ -1,7 +1,9 @@
 using UnityEngine.Audio;
 using System;
+using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class AudioManager : MonoBehaviour
 {
     [Header("---------- Audio Source ----------")]
@@ -14,13 +16,27 @@ public class AudioManager : MonoBehaviour
     public AudioClip Street;
     public AudioClip Apartment;
     public AudioClip Bathroom;
+    public AudioClip otherClip;
 
-    private void Start()
+    IEnumerator Start()
     {
+        
+        
         musicSource.clip = Sandbox;
+        musicSource.Play();
+        yield return new WaitForSeconds(10f);
+        musicSource.clip = otherClip;
         musicSource.Play();
     }
 
+
+    /* public bool PlayNext;
+    {
+        if () 
+        {
+            
+        }
+    } */
     public void PlaySqueaks(AudioClip clip)
     {
         _randomSqueaks.PlayOneShot(_randomSqueaks.clip);
