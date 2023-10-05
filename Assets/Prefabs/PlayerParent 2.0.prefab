@@ -224,6 +224,7 @@ MonoBehaviour:
   Player: {fileID: 6478679403930145565}
   BrushRaycaster: {fileID: 6151305596622574003}
   moveSpeed: 10
+  playerFallSpeed: 0.4
   coyoteTime: 0.2
   coyoteTimeCounter: 0
   accelerationTime: 0.02
@@ -237,6 +238,8 @@ MonoBehaviour:
     m_Bits: 128
   _brushMovement: {fileID: 5542908656207895137}
   BrushRotationSpeed: 5
+  audioManager: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &2669286265207035344
 MonoBehaviour:
   m_ObjectHideFlags: 0

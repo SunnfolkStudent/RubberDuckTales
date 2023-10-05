@@ -4,7 +4,29 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public Sound[] Sound;
+    [Header("---------- Audio Source ----------")]
+    [SerializeField] private AudioSource musicSource;
+    [SerializeField] private AudioSource _randomSqueaks;
+
+    [Header("---------- Audio Clip ----------")]
+    public AudioClip Sandbox;
+    public AudioClip Park;
+    public AudioClip Street;
+    public AudioClip Apartment;
+    public AudioClip Bathroom;
+
+    private void Start()
+    {
+        musicSource.clip = Sandbox;
+        musicSource.Play();
+    }
+
+    public void PlaySqueaks(AudioClip clip)
+    {
+        _randomSqueaks.PlayOneShot(_randomSqueaks.clip);
+    }
+
+    /* public AudioSource[] Squeaks;
 
     public static AudioManager instance;
 
@@ -21,7 +43,7 @@ public class AudioManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        foreach (Sound s in Sound)
+        foreach (Sound s in Squeaks)
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
@@ -39,7 +61,7 @@ public class AudioManager : MonoBehaviour
 
     public void Play(string name)
     {
-        Sound s = Array.Find(Sound, sound => sound.name == name);
+        Sound s = Array.Find(Squeaks, sound => sound.name == name);
         if (s == null)
         {
             Debug.LogWarning("Sound: " + name + "Not Found!");
@@ -63,5 +85,5 @@ public class AudioManager : MonoBehaviour
 
         s.source.Stop();
 
-    }
+    }*/
 }
