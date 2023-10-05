@@ -125,7 +125,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8221544468469040238}
-  - component: {fileID: 2184669377430497244}
   m_Layer: 0
   m_Name: Bushes_Back
   m_TagString: Untagged
@@ -151,20 +150,6 @@ Transform:
   - {fileID: 8206591855328512705}
   m_Father: {fileID: 3069422442779433981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2184669377430497244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2168229772106996091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
-  parallaxEffect: 0.6
 --- !u!1 &3013851093457746196
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,7 +160,6 @@ GameObject:
   m_Component:
   - component: {fileID: 412223856502944851}
   - component: {fileID: 7304874339787244835}
-  - component: {fileID: 1621550390537205714}
   m_Layer: 0
   m_Name: Stage_park_Bushes_Back_2
   m_TagString: Untagged
@@ -250,20 +234,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1621550390537205714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3013851093457746196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
-  parallaxEffect: 0.4
 --- !u!1 &3184567633547659970
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +244,6 @@ GameObject:
   m_Component:
   - component: {fileID: 873525694277346736}
   - component: {fileID: 566284370126160897}
-  - component: {fileID: 1460936566787707724}
   m_Layer: 0
   m_Name: Stage_park_sky_2
   m_TagString: Untagged
@@ -349,20 +318,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1460936566787707724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3184567633547659970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
-  parallaxEffect: 0.9
 --- !u!1 &3304342563569123997
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +411,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3468130759922453143}
-  - component: {fileID: 7120507345045979287}
   m_Layer: 0
   m_Name: Sky
   m_TagString: Untagged
@@ -482,20 +436,6 @@ Transform:
   - {fileID: 1980248760411007015}
   m_Father: {fileID: 3069422442779433981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7120507345045979287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3496144813348021577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
-  parallaxEffect: 0.9
 --- !u!1 &3555142037187612725
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,7 +614,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6161022141725354837}
   - component: {fileID: 3633067122650469304}
-  - component: {fileID: 5560731375207818442}
   m_Layer: 0
   m_Name: Stage_park_Bushes_Front_2
   m_TagString: Untagged
@@ -749,20 +688,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5560731375207818442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4693945553009596987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
-  parallaxEffect: 0.2
 --- !u!1 &4710175644411345246
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +798,7 @@ Transform:
   m_GameObject: {fileID: 4712849786193189353}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.03, y: 13.42, z: 0.19719335}
+  m_LocalPosition: {x: -11.55, y: 13.14, z: 0.19719335}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

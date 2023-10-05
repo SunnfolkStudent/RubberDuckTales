@@ -52,7 +52,7 @@ public class BrushMovement : MonoBehaviour
 
     private bool GroundedBrush()
     {
-        float offset = .3f;
+        float offset = .4f;
         
         // Just visuals, no function
         Debug.DrawRay(transform.GetChild(0).position + new Vector3(offset, 0, 0), Vector2.down);
