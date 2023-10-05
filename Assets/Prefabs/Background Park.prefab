@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6771410048481530753}
   - component: {fileID: 2647537958386618913}
   m_Layer: 0
-  m_Name: Stage_park_Tree_thin_0
+  m_Name: Stage_park_Tree_thin_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,11 +26,11 @@ Transform:
   m_GameObject: {fileID: 1577274022161211}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -54.29, y: 13.41, z: 27.4}
+  m_LocalPosition: {x: -13.897709, y: -9.570007, z: -15.610859}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9021620853913961530}
+  m_Father: {fileID: 3280982400825365473}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2647537958386618913
 SpriteRenderer:
@@ -116,6 +116,55 @@ Transform:
   - {fileID: 4323678081410448547}
   m_Father: {fileID: 3069422442779433981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2168229772106996091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8221544468469040238}
+  - component: {fileID: 2184669377430497244}
+  m_Layer: 0
+  m_Name: Bushes_Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8221544468469040238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168229772106996091}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15229034, y: 11.70001, z: 43.010857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1440885207779826684}
+  - {fileID: 412223856502944851}
+  - {fileID: 8206591855328512705}
+  m_Father: {fileID: 3069422442779433981}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2184669377430497244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168229772106996091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
+  parallaxEffect: 0.6
 --- !u!1 &3013851093457746196
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,7 +177,7 @@ GameObject:
   - component: {fileID: 7304874339787244835}
   - component: {fileID: 1621550390537205714}
   m_Layer: 0
-  m_Name: Bush back
+  m_Name: Stage_park_Bushes_Back_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,13 +192,11 @@ Transform:
   m_GameObject: {fileID: 3013851093457746196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.56, z: 32}
+  m_LocalPosition: {x: 0.15229034, y: -9.140011, z: -11.010857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1440885207779826684}
-  - {fileID: 8206591855328512705}
-  m_Father: {fileID: 3069422442779433981}
+  m_Children: []
+  m_Father: {fileID: 8221544468469040238}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7304874339787244835
 SpriteRenderer:
@@ -215,8 +262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  parallaxEffect: 0.7
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
+  parallaxEffect: 0.4
 --- !u!1 &3184567633547659970
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +276,7 @@ GameObject:
   - component: {fileID: 566284370126160897}
   - component: {fileID: 1460936566787707724}
   m_Layer: 0
-  m_Name: Sky
+  m_Name: Stage_park_sky_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,13 +291,11 @@ Transform:
   m_GameObject: {fileID: 3184567633547659970}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.1, z: 61.6}
+  m_LocalPosition: {x: 0.15229034, y: -9.60001, z: 18.589142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8971544662232002681}
-  - {fileID: 1980248760411007015}
-  m_Father: {fileID: 3069422442779433981}
+  m_Children: []
+  m_Father: {fileID: 3468130759922453143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &566284370126160897
 SpriteRenderer:
@@ -316,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
   parallaxEffect: 0.9
 --- !u!1 &3304342563569123997
 GameObject:
@@ -329,7 +374,7 @@ GameObject:
   - component: {fileID: 9078112208691888757}
   - component: {fileID: 4650623800069639698}
   m_Layer: 0
-  m_Name: Stage_park_Bushes_Front_0 (2)
+  m_Name: Stage_park_Bushes_Front_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,11 +389,11 @@ Transform:
   m_GameObject: {fileID: 3304342563569123997}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.5, y: 0, z: 0}
+  m_LocalPosition: {x: -22.347706, y: -9.590011, z: -21.610857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6161022141725354837}
+  m_Father: {fileID: 8398764905438245535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4650623800069639698
 SpriteRenderer:
@@ -402,6 +447,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &3496144813348021577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3468130759922453143}
+  - component: {fileID: 7120507345045979287}
+  m_Layer: 0
+  m_Name: Sky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3468130759922453143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3496144813348021577}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15229034, y: 11.70001, z: 43.010857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8971544662232002681}
+  - {fileID: 873525694277346736}
+  - {fileID: 1980248760411007015}
+  m_Father: {fileID: 3069422442779433981}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7120507345045979287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3496144813348021577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
+  parallaxEffect: 0.9
 --- !u!1 &3555142037187612725
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +507,7 @@ GameObject:
   - component: {fileID: 8206591855328512705}
   - component: {fileID: 7177207907228140846}
   m_Layer: 0
-  m_Name: Stage_park_Bushes_Back_0 (1)
+  m_Name: Stage_park_Bushes_Back_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,11 +522,11 @@ Transform:
   m_GameObject: {fileID: 3555142037187612725}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.5, y: 0, z: 0}
+  m_LocalPosition: {x: 22.652294, y: -9.140011, z: -11.010857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 412223856502944851}
+  m_Father: {fileID: 8221544468469040238}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7177207907228140846
 SpriteRenderer:
@@ -497,7 +591,7 @@ GameObject:
   - component: {fileID: 1980248760411007015}
   - component: {fileID: 4865636391883077661}
   m_Layer: 0
-  m_Name: Stage_park_sky_0 (1)
+  m_Name: Stage_park_sky_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -512,11 +606,11 @@ Transform:
   m_GameObject: {fileID: 4274034099496760437}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.5, y: 0, z: 0}
+  m_LocalPosition: {x: 22.65229, y: -9.60001, z: 18.589142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 873525694277346736}
+  m_Father: {fileID: 3468130759922453143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4865636391883077661
 SpriteRenderer:
@@ -564,7 +658,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6, y: 2.7}
+  m_Size: {x: 22.5, y: 8.4375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -582,7 +676,7 @@ GameObject:
   - component: {fileID: 3633067122650469304}
   - component: {fileID: 5560731375207818442}
   m_Layer: 0
-  m_Name: Bush front
+  m_Name: Stage_park_Bushes_Front_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -597,13 +691,11 @@ Transform:
   m_GameObject: {fileID: 4693945553009596987}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.11, z: 21.4}
+  m_LocalPosition: {x: 0.15229034, y: -9.590011, z: -21.610857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9078112208691888757}
-  - {fileID: 8725101506640005369}
-  m_Father: {fileID: 3069422442779433981}
+  m_Children: []
+  m_Father: {fileID: 8398764905438245535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3633067122650469304
 SpriteRenderer:
@@ -669,8 +761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cee50e72a4736646935632ed6fe4221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  parallaxEffect: 0.3
+  cam: {fileID: 820500299369189202, guid: 17b74964e00bc944b9f660d616e35f90, type: 3}
+  parallaxEffect: 0.2
 --- !u!1 &4710175644411345246
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +774,7 @@ GameObject:
   - component: {fileID: 1440885207779826684}
   - component: {fileID: 8437789611897996358}
   m_Layer: 0
-  m_Name: Stage_park_Bushes_Back_0 (2)
+  m_Name: Stage_park_Bushes_Back_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -697,11 +789,11 @@ Transform:
   m_GameObject: {fileID: 4710175644411345246}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.5, y: 0, z: 0}
+  m_LocalPosition: {x: -22.347706, y: -9.140011, z: -11.010857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 412223856502944851}
+  m_Father: {fileID: 8221544468469040238}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8437789611897996358
 SpriteRenderer:
@@ -839,7 +931,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &6831158404068995262
+--- !u!1 &5764050702025561154
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -847,28 +939,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9021620853913961530}
+  - component: {fileID: 8398764905438245535}
   m_Layer: 0
-  m_Name: Tree small
+  m_Name: Bushes_Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9021620853913961530
+--- !u!4 &8398764905438245535
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6831158404068995262}
+  m_GameObject: {fileID: 5764050702025561154}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.24, y: -11.279997, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15229034, y: 11.70001, z: 43.010857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6771410048481530753}
+  - {fileID: 9078112208691888757}
+  - {fileID: 6161022141725354837}
+  - {fileID: 8725101506640005369}
   m_Father: {fileID: 3069422442779433981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7029578938730940066
@@ -882,7 +976,7 @@ GameObject:
   - component: {fileID: 8725101506640005369}
   - component: {fileID: 3258780742377211330}
   m_Layer: 0
-  m_Name: Stage_park_Bushes_Front_0 (1)
+  m_Name: Stage_park_Bushes_Front_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -897,11 +991,11 @@ Transform:
   m_GameObject: {fileID: 7029578938730940066}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.5, y: 0, z: 0}
+  m_LocalPosition: {x: 22.65229, y: -9.590011, z: -21.610857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6161022141725354837}
+  m_Father: {fileID: 8398764905438245535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3258780742377211330
 SpriteRenderer:
@@ -1016,11 +1110,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 873525694277346736}
-  - {fileID: 412223856502944851}
-  - {fileID: 6161022141725354837}
+  - {fileID: 3468130759922453143}
+  - {fileID: 8221544468469040238}
   - {fileID: 5364571660779633689}
-  - {fileID: 9021620853913961530}
+  - {fileID: 3280982400825365473}
+  - {fileID: 8398764905438245535}
   - {fileID: 3439253339204521788}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1035,7 +1129,7 @@ GameObject:
   - component: {fileID: 4323678081410448547}
   - component: {fileID: 1566904491899732480}
   m_Layer: 0
-  m_Name: Stage_park_Tree_thick_0
+  m_Name: Stage_park_Tree_thick_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1108,6 +1202,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &8151404690028815600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3280982400825365473}
+  m_Layer: 0
+  m_Name: Tree left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3280982400825365473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8151404690028815600}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15229034, y: 11.70001, z: 43.010857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6771410048481530753}
+  m_Father: {fileID: 3069422442779433981}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8576332526584433619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1245,7 @@ GameObject:
   - component: {fileID: 8971544662232002681}
   - component: {fileID: 1962525912096679244}
   m_Layer: 0
-  m_Name: Stage_park_sky_0 (2)
+  m_Name: Stage_park_sky_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1134,11 +1260,11 @@ Transform:
   m_GameObject: {fileID: 8576332526584433619}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.5, y: 0, z: 0}
+  m_LocalPosition: {x: -22.347706, y: -9.60001, z: 18.589142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 873525694277346736}
+  m_Father: {fileID: 3468130759922453143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1962525912096679244
 SpriteRenderer:
