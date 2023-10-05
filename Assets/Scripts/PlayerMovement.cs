@@ -32,8 +32,8 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsBrush;
 
     [Header("Components")] 
-    private Rigidbody2D _rigidbody2D;
-    private PlayerInput _input;
+    public Rigidbody2D _rigidbody2D;
+    public PlayerInput _input;
 
     [Header("Brush")] 
     public BrushMovement _brushMovement;
@@ -93,8 +93,12 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector2 direction = BrushRaycaster.transform.position - transform.position;
 
-            _desiredVelocity = Quaternion.Euler(0, 0, (ducking ? -1 : 1) * 90) * direction * BrushRotationSpeed;
-
+            
+            if (ducking ? _brushMovement.transform.rotation.eulerAngles.z <= 160 : _brushMovement.transform.rotation.eulerAngles.z > 200)
+            {
+                _desiredVelocity = Quaternion.Euler(0, 0, (ducking ? -1 : 1) * 90) * direction * BrushRotationSpeed;
+            }
+            
             //_desiredVelocity = new Vector2(_rigidbody2D.velocity.x, 1);
 
         }

@@ -1,0 +1,1054 @@
+fileFormatVersion: 2
+guid: fb30c74308217e249bb179076a9fac4c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638321237795687182
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: player_theDuckTale_v4_Frame_0
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 31
+      height: 25
+    spriteID: d7a9b5760074f044fa9b907ecede36b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: player_theDuckTale_v4_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 103
+      width: 32
+      height: 23
+    spriteID: f2ecf7e3c7d262f4cbb59c8e28b81bd0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 103}
+  - name: player_theDuckTale_v4_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 135
+      width: 32
+      height: 22
+    spriteID: 8e9d691989dfa62499add97a78a9b761
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 135}
+  - name: player_theDuckTale_v4_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 135
+      width: 32
+      height: 22
+    spriteID: 13e919690af4dc64caaa9c4f6ac80cb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 135}
+  - name: player_theDuckTale_v4_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 135
+      width: 32
+      height: 22
+    spriteID: 9e1fb03bf30a10541862afba907c8a06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 135}
+  - name: player_theDuckTale_v4_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 135
+      width: 32
+      height: 22
+    spriteID: aaad23b5dde4173439aa8fb296f6c169
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 135}
+  - name: player_theDuckTale_v4_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 135
+      width: 32
+      height: 22
+    spriteID: 437a987ad28d7e34492c2241707e894d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 135}
+  - name: player_theDuckTale_v4_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 135
+      width: 32
+      height: 23
+    spriteID: ecd73470a275a44438ea0223275299dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 135}
+  - name: player_theDuckTale_v4_Frame_10
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 4
+      width: 31
+      height: 25
+    spriteID: 3ef70f656c40c4a43ae410d7d852fccc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 4}
+  - name: player_theDuckTale_v4_Frame_11
+    originalName: 
+    pivot: {x: 0.516129, y: 0.5416667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 70
+      width: 31
+      height: 24
+    spriteID: f2969a654f60b464eabbf51b63ab3905
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 70}
+  - name: player_theDuckTale_v4_Frame_12
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 31
+      height: 25
+    spriteID: a01298db5050d0441b46d85277a704c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  - name: player_theDuckTale_v4_Frame_13
+    originalName: 
+    pivot: {x: 0.516129, y: 0.5416667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 70
+      width: 31
+      height: 24
+    spriteID: eb28960d9c598954aa52c6bb7b205bab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 70}
+  - name: player_theDuckTale_v4_Frame_14
+    originalName: 
+    pivot: {x: 0.516129, y: 0.5416667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 103
+      width: 31
+      height: 24
+    spriteID: 6e87aca3f05b27a498b0dcd26317f5bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 103}
+  - name: player_theDuckTale_v4_Frame_15
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 4
+      width: 31
+      height: 25
+    spriteID: daf7c532b15c7964581a745fefcbf6f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 4}
+  - name: player_theDuckTale_v4_Frame_16
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 4
+      width: 31
+      height: 25
+    spriteID: 26262fc94c0904e4fba6838fe4d5f546
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 4}
+  - name: player_theDuckTale_v4_Frame_21
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 4
+      width: 31
+      height: 25
+    spriteID: 5040c326e8459874e903effb7ca2a048
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 4}
+  - name: player_theDuckTale_v4_Frame_22
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 31
+      height: 25
+    spriteID: 887222750100cf74dba79c6f70375a13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: player_theDuckTale_v4_Frame_23
+    originalName: 
+    pivot: {x: 0.516129, y: 0.56}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 37
+      width: 31
+      height: 25
+    spriteID: 09f616bda8e8a20448ae785a06c111c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 37}
+  - name: player_theDuckTale_v4_Frame_24
+    originalName: 
+    pivot: {x: 0.516129, y: 0.59999996}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 37
+      width: 31
+      height: 25
+    spriteID: fc18c31ee0d0b354cba97dfaac87fa02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 37}
+  - name: player_theDuckTale_v4_Frame_25
+    originalName: 
+    pivot: {x: 0.516129, y: 0.5833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 103
+      width: 31
+      height: 24
+    spriteID: 9624843df19f9944584cbd2dc84f1be2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 103}
+  - name: player_theDuckTale_v4_Frame_26
+    originalName: 
+    pivot: {x: 0.516129, y: 0.5416667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 103
+      width: 31
+      height: 24
+    spriteID: bc1cffa9a09648f4f9afa18a312cda8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 103}
+  - name: player_theDuckTale_v4_Frame_27
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 37
+      width: 31
+      height: 25
+    spriteID: ec259db4b744c8c40a751a967a22e6b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 37}
+  - name: player_theDuckTale_v4_Frame_28
+    originalName: 
+    pivot: {x: 0.516129, y: 0.56}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 37
+      width: 31
+      height: 25
+    spriteID: 2fc7ef0a133d196468923c1a1c095c5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 37}
+  - name: player_theDuckTale_v4_Frame_29
+    originalName: 
+    pivot: {x: 0.516129, y: 0.59999996}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 37
+      width: 31
+      height: 25
+    spriteID: 510e805006ee1fc4f80fb3117baa8846
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 37}
+  - name: player_theDuckTale_v4_Frame_30
+    originalName: 
+    pivot: {x: 0.516129, y: 0.5833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 103
+      width: 31
+      height: 24
+    spriteID: 1c4ba8610207525488eb977302736610
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 103}
+  - name: player_theDuckTale_v4_Frame_31
+    originalName: 
+    pivot: {x: 0.516129, y: 0.5416667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 103
+      width: 31
+      height: 24
+    spriteID: 637be1db3b25366438932942a38a03fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 103}
+  - name: player_theDuckTale_v4_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 166
+      width: 32
+      height: 22
+    spriteID: f990302e65163cb4f84a56e8a0bee4af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 166}
+  - name: player_theDuckTale_v4_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 166
+      width: 32
+      height: 22
+    spriteID: 3dcdc806f0c6eb7419d8e4b6f7deeeee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 166}
+  - name: player_theDuckTale_v4_Frame_17
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 31
+      height: 25
+    spriteID: b222fc936acd7f54aaa89564526668fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: player_theDuckTale_v4_Frame_18
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 70
+      width: 31
+      height: 25
+    spriteID: 126cfadf074f9d34d9aea365667caa76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 70}
+  - name: player_theDuckTale_v4_Frame_19
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 70
+      width: 31
+      height: 25
+    spriteID: 4c679e4d181851345b43b11f2c5f4131
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 70}
+  - name: player_theDuckTale_v4_Frame_20
+    originalName: 
+    pivot: {x: 0.516129, y: 0.52}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 70
+      width: 31
+      height: 25
+    spriteID: 27655437526d96443801ef8fe038324f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 70}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1915780887
+    name: player_theDuckTale_v4
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: player_theDuckTale_v4_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: d7a9b5760074f044fa9b907ecede36b0
+    - name: player_theDuckTale_v4_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 23
+      spriteId: f2ecf7e3c7d262f4cbb59c8e28b81bd0
+    - name: player_theDuckTale_v4_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 22
+      spriteId: 8e9d691989dfa62499add97a78a9b761
+    - name: player_theDuckTale_v4_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 22
+      spriteId: 13e919690af4dc64caaa9c4f6ac80cb2
+    - name: player_theDuckTale_v4_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 22
+      spriteId: 9e1fb03bf30a10541862afba907c8a06
+    - name: player_theDuckTale_v4_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 22
+      spriteId: aaad23b5dde4173439aa8fb296f6c169
+    - name: player_theDuckTale_v4_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 22
+      spriteId: 437a987ad28d7e34492c2241707e894d
+    - name: player_theDuckTale_v4_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 23
+      spriteId: ecd73470a275a44438ea0223275299dc
+    - name: player_theDuckTale_v4_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 3ef70f656c40c4a43ae410d7d852fccc
+    - name: player_theDuckTale_v4_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 24
+      spriteId: f2969a654f60b464eabbf51b63ab3905
+    - name: player_theDuckTale_v4_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: a01298db5050d0441b46d85277a704c8
+    - name: player_theDuckTale_v4_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 24
+      spriteId: eb28960d9c598954aa52c6bb7b205bab
+    - name: player_theDuckTale_v4_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 24
+      spriteId: 6e87aca3f05b27a498b0dcd26317f5bf
+    - name: player_theDuckTale_v4_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: daf7c532b15c7964581a745fefcbf6f1
+    - name: player_theDuckTale_v4_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 26262fc94c0904e4fba6838fe4d5f546
+    - name: player_theDuckTale_v4_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 5040c326e8459874e903effb7ca2a048
+    - name: player_theDuckTale_v4_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 887222750100cf74dba79c6f70375a13
+    - name: player_theDuckTale_v4_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 25
+      spriteId: 09f616bda8e8a20448ae785a06c111c4
+    - name: player_theDuckTale_v4_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 1
+        width: 31
+        height: 25
+      spriteId: fc18c31ee0d0b354cba97dfaac87fa02
+    - name: player_theDuckTale_v4_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 24
+      spriteId: 9624843df19f9944584cbd2dc84f1be2
+    - name: player_theDuckTale_v4_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 24
+      spriteId: bc1cffa9a09648f4f9afa18a312cda8a
+    - name: player_theDuckTale_v4_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: ec259db4b744c8c40a751a967a22e6b4
+    - name: player_theDuckTale_v4_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 25
+      spriteId: 2fc7ef0a133d196468923c1a1c095c5f
+    - name: player_theDuckTale_v4_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 1
+        width: 31
+        height: 25
+      spriteId: 510e805006ee1fc4f80fb3117baa8846
+    - name: player_theDuckTale_v4_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 2
+        width: 31
+        height: 24
+      spriteId: 1c4ba8610207525488eb977302736610
+    - name: player_theDuckTale_v4_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 24
+      spriteId: 637be1db3b25366438932942a38a03fc
+    - name: player_theDuckTale_v4_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 22
+      spriteId: f990302e65163cb4f84a56e8a0bee4af
+    - name: player_theDuckTale_v4_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 3
+        width: 32
+        height: 22
+      spriteId: 3dcdc806f0c6eb7419d8e4b6f7deeeee
+    - name: player_theDuckTale_v4_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: b222fc936acd7f54aaa89564526668fd
+    - name: player_theDuckTale_v4_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 126cfadf074f9d34d9aea365667caa76
+    - name: player_theDuckTale_v4_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 4c679e4d181851345b43b11f2c5f4131
+    - name: player_theDuckTale_v4_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 3
+        width: 31
+        height: 25
+      spriteId: 27655437526d96443801ef8fe038324f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

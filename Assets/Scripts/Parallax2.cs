@@ -13,7 +13,7 @@ public class Parallax2 : MonoBehaviour
     {
         _startpos = transform.position.x;
         _length = GetComponent<SpriteRenderer>().bounds.size.x;
-        cam = GameObject.Find("MainCamera");
+        cam = GameObject.Find("MainCamera");  // Camera.main.gameobject
         
     }
 
