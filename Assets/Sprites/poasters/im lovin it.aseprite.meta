@@ -128,9 +128,15 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
+<<<<<<<< HEAD:Assets/Sprites/poasters/im lovin it.aseprite.meta
       width: 48
       height: 64
     spriteID: 2cef1ab2192b9984e99bb47bcef41093
+========
+      width: 1920
+      height: 272
+    spriteID: 8fdacecc55042544788afb933d447fca
+>>>>>>>> 3ae2f795b218804c2dfe1f15ea5817b57b86624d:Assets/Sprites/Backgrounds/Road_Stage/Stage_road.aseprite.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,9 +159,15 @@ ScriptedImporter:
       cellRect:
         x: 0
         y: 0
+<<<<<<<< HEAD:Assets/Sprites/poasters/im lovin it.aseprite.meta
         width: 48
         height: 64
       spriteId: 2cef1ab2192b9984e99bb47bcef41093
+========
+        width: 1920
+        height: 272
+      spriteId: 8fdacecc55042544788afb933d447fca
+>>>>>>>> 3ae2f795b218804c2dfe1f15ea5817b57b86624d:Assets/Sprites/Backgrounds/Road_Stage/Stage_road.aseprite.meta
     linkedCells: []
     parentIndex: -1
   platformSettings: []
