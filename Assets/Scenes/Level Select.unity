@@ -534,6 +534,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 16.2
       objectReference: {fileID: 0}
+    - target: {fileID: 4043787845956851486, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 4043787845956851486, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 4043787845956851486, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 4043787845956851486, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 4043787845956851486, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 4043787845956851486, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.78431374
+      objectReference: {fileID: 0}
     - target: {fileID: 4741785055881918333, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 102
@@ -841,8 +865,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
