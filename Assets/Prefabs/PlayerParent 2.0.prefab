@@ -227,7 +227,7 @@ MonoBehaviour:
   playerFallSpeed: 0.4
   coyoteTime: 0.2
   coyoteTimeCounter: 0
-  accelerationTime: 0.02
+  accelerationTime: 0.1
   groundFriction: 0.1
   airFriction: 0.005
   whatIsGround:
@@ -391,7 +391,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.066274494, y: -0.9224068}
-  m_ConnectedAnchor: {x: -0.08589136, y: -0.19941151}
+  m_ConnectedAnchor: {x: -0.08589136, y: -0.19941163}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody2D: {fileID: 4305551716846310375}
-  BrushSpeed: 120
+  BrushSpeed: 130
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
