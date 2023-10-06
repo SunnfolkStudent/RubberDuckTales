@@ -62,6 +62,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Main Menu"",
+                    ""type"": ""Button"",
+                    ""id"": ""390e922d-074a-4054-87e9-904a22fa8a94"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -284,6 +293,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Lift"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""628f72c6-ea39-49b3-b444-260f2ad1fd9e"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Main Menu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -296,6 +316,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_Brush = m_Player.FindAction("Brush", throwIfNotFound: true);
         m_Player_Squeak = m_Player.FindAction("Squeak", throwIfNotFound: true);
         m_Player_Lift = m_Player.FindAction("Lift", throwIfNotFound: true);
+        m_Player_MainMenu = m_Player.FindAction("Main Menu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -361,6 +382,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Brush;
     private readonly InputAction m_Player_Squeak;
     private readonly InputAction m_Player_Lift;
+    private readonly InputAction m_Player_MainMenu;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
@@ -369,6 +391,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @Brush => m_Wrapper.m_Player_Brush;
         public InputAction @Squeak => m_Wrapper.m_Player_Squeak;
         public InputAction @Lift => m_Wrapper.m_Player_Lift;
+        public InputAction @MainMenu => m_Wrapper.m_Player_MainMenu;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -390,6 +413,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Lift.started += instance.OnLift;
             @Lift.performed += instance.OnLift;
             @Lift.canceled += instance.OnLift;
+            @MainMenu.started += instance.OnMainMenu;
+            @MainMenu.performed += instance.OnMainMenu;
+            @MainMenu.canceled += instance.OnMainMenu;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -406,6 +432,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Lift.started -= instance.OnLift;
             @Lift.performed -= instance.OnLift;
             @Lift.canceled -= instance.OnLift;
+            @MainMenu.started -= instance.OnMainMenu;
+            @MainMenu.performed -= instance.OnMainMenu;
+            @MainMenu.canceled -= instance.OnMainMenu;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -429,5 +458,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnBrush(InputAction.CallbackContext context);
         void OnSqueak(InputAction.CallbackContext context);
         void OnLift(InputAction.CallbackContext context);
+        void OnMainMenu(InputAction.CallbackContext context);
     }
 }

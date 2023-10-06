@@ -40,6 +40,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Main Menu",
+                    "type": "Button",
+                    "id": "390e922d-074a-4054-87e9-904a22fa8a94",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -262,6 +271,17 @@
                     "action": "Lift",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "628f72c6-ea39-49b3-b444-260f2ad1fd9e",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Main Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
