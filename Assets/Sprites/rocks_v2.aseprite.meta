@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ca76d5523943eb4182091992cac24af
+guid: 27cd25c481b4d6647996b97208339b81
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638321507317521692
+  platformSettingsDirtyTick: 638321511582709332
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: MOB-FRI SONE!
+  - name: rocks_v2
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 48
-      height: 64
-    spriteID: 11454c6223e48fb4a89dbf066dd0b3d2
+      width: 170
+      height: 46
+    spriteID: 637361d17f8ebe64586064ea6209c023
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,7 +140,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: MOB-FRI SONE!_0
+  - name: rocks_v2_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -149,9 +149,69 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
+      width: 62
+      height: 39
+    spriteID: 23d933d163dc3f3459104be6028f58fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: rocks_v2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 4
+      width: 22
+      height: 46
+    spriteID: 9e44cbe046c4bac41abe9442ba839e4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: rocks_v2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 4
       width: 48
-      height: 64
-    spriteID: 511294c6131d25047895b691e42c63fb
+      height: 36
+    spriteID: 1536d46cc021d754daff742b052d105a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: rocks_v2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 4
+      width: 24
+      height: 23
+    spriteID: 55abd0af33f254b47a3691fb3c9fc789
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,20 +222,20 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -1350770460
-    name: MOB-FRI SONE!
+    guid: 1405118057
+    name: rocks_v2
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: MOB-FRI SONE!
+    - name: rocks_v2
       frameIndex: 0
       cellRect:
-        x: 0
+        x: 1
         y: 0
-        width: 48
-        height: 64
-      spriteId: 11454c6223e48fb4a89dbf066dd0b3d2
+        width: 170
+        height: 46
+      spriteId: 637361d17f8ebe64586064ea6209c023
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -203,4 +263,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 48, y: 64}
+  canvasSize: {x: 176, y: 48}
