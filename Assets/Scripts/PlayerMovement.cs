@@ -1,12 +1,5 @@
-using System;
-using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
-using UnityEditor.Rendering;
-using UnityEngine.Audio;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.InputSystem.HID;
-using UnityEngine.Serialization;
+
 
 public class PlayerMovement : MonoBehaviour
 {

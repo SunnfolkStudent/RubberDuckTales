@@ -26,14 +26,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 5 - Bathroom.unity
     guid: b9e9d7b113334b942817592436b83fc1
-  - enabled: 0
-    path: Assets/Scenes/Ben. Experimental.unity
-    guid: 15b5a9e5a5ec08f44ae7fdcf86088751
-  - enabled: 0
-    path: Assets/Scenes/Eivind.unity
-    guid: 04c1417fc32ba2540aff15ce73a595f5
-  - enabled: 0
-    path: Assets/Scenes/Eivind Test.unity
-    guid: 33d3ae71e34d592409c31996938dceaf
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
