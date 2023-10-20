@@ -14,7 +14,7 @@ public class SpeedTimer : MonoBehaviour
     
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(this);
         _text = GetComponentInChildren<TMP_Text>();
     }
     

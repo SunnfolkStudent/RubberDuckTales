@@ -37,6 +37,8 @@ public class RandomSqueaks : MonoBehaviour
         else
         {
             if (playerMovement.IsPlayerGrounded() && 0.30f < playerMovement.playerFallSpeed) return;
+            if (squeaks == null) return;
+            
             source.clip = squeaks[Random.Range(0, squeaks.Length)];
            /* source.volume = Random.Range(1 - volumeChangeMultiplier, 1); */
             /* source.pitch = Random.Range(1 - pitchChangeMultiplier, 1+pitchChangeMultiplier); */

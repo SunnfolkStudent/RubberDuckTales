@@ -32,14 +32,19 @@ public class PlayerAnimations : MonoBehaviour
 
         if (_pMove._input.lift != 0)
         { return; }
+
+        if (expr)
+        {
+            
+        }
         
-        if (_pMove._rigidbody2D.velocity.x < -1)
+        /* if (_pMove._rigidbody2D.velocity.x < -1)
         {
             _renderer.flipX = true;
         }
         else if (_pMove._rigidbody2D.velocity.x > 1)
         {
             _renderer.flipX = false;
-        }
+        } */
     }
 }
