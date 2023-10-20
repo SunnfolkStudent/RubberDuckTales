@@ -11,7 +11,7 @@ public class RandomSqueaks : MonoBehaviour
     public AudioClip[] squeaks;
     public AudioSource source;
     public PlayerMovement playerMovement;
-    public float timer = 4;
+    public float timer = 3;
     [Range(0.1f, 0.5f)] 
     public float volumeChangeMultiplier = 0.2f;
     /* public float pitchChangeMultiplier = 0.2f; */

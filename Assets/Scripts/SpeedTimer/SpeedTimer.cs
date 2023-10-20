@@ -21,7 +21,7 @@ public class SpeedTimer : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex is 2 or 3 or 4 or 5 or 6)
+        if (SceneManager.GetActiveScene().buildIndex is 3 or 4 or 5 or 6)
         {
             timer += Time.deltaTime;
         }
