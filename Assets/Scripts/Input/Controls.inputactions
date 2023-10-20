@@ -42,7 +42,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Main Menu",
+                    "name": "Pause",
                     "type": "Button",
                     "id": "390e922d-074a-4054-87e9-904a22fa8a94",
                     "expectedControlType": "Button",
@@ -279,7 +279,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Main Menu",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49ad6626-b3b7-4700-851f-818b48e444fb",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

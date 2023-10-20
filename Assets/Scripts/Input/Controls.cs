@@ -64,7 +64,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Main Menu"",
+                    ""name"": ""Pause"",
                     ""type"": ""Button"",
                     ""id"": ""390e922d-074a-4054-87e9-904a22fa8a94"",
                     ""expectedControlType"": ""Button"",
@@ -301,7 +301,18 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Main Menu"",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""49ad6626-b3b7-4700-851f-818b48e444fb"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -316,7 +327,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_Brush = m_Player.FindAction("Brush", throwIfNotFound: true);
         m_Player_Squeak = m_Player.FindAction("Squeak", throwIfNotFound: true);
         m_Player_Lift = m_Player.FindAction("Lift", throwIfNotFound: true);
-        m_Player_MainMenu = m_Player.FindAction("Main Menu", throwIfNotFound: true);
+        m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -382,7 +393,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Brush;
     private readonly InputAction m_Player_Squeak;
     private readonly InputAction m_Player_Lift;
-    private readonly InputAction m_Player_MainMenu;
+    private readonly InputAction m_Player_Pause;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
@@ -391,7 +402,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @Brush => m_Wrapper.m_Player_Brush;
         public InputAction @Squeak => m_Wrapper.m_Player_Squeak;
         public InputAction @Lift => m_Wrapper.m_Player_Lift;
-        public InputAction @MainMenu => m_Wrapper.m_Player_MainMenu;
+        public InputAction @Pause => m_Wrapper.m_Player_Pause;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -413,9 +424,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Lift.started += instance.OnLift;
             @Lift.performed += instance.OnLift;
             @Lift.canceled += instance.OnLift;
-            @MainMenu.started += instance.OnMainMenu;
-            @MainMenu.performed += instance.OnMainMenu;
-            @MainMenu.canceled += instance.OnMainMenu;
+            @Pause.started += instance.OnPause;
+            @Pause.performed += instance.OnPause;
+            @Pause.canceled += instance.OnPause;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -432,9 +443,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Lift.started -= instance.OnLift;
             @Lift.performed -= instance.OnLift;
             @Lift.canceled -= instance.OnLift;
-            @MainMenu.started -= instance.OnMainMenu;
-            @MainMenu.performed -= instance.OnMainMenu;
-            @MainMenu.canceled -= instance.OnMainMenu;
+            @Pause.started -= instance.OnPause;
+            @Pause.performed -= instance.OnPause;
+            @Pause.canceled -= instance.OnPause;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -458,6 +469,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnBrush(InputAction.CallbackContext context);
         void OnSqueak(InputAction.CallbackContext context);
         void OnLift(InputAction.CallbackContext context);
-        void OnMainMenu(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
     }
 }

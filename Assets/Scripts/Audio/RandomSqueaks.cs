@@ -41,7 +41,7 @@ public class RandomSqueaks : MonoBehaviour
            /* source.volume = Random.Range(1 - volumeChangeMultiplier, 1); */
             /* source.pitch = Random.Range(1 - pitchChangeMultiplier, 1+pitchChangeMultiplier); */
             source.PlayOneShot(source.clip);
-            timer = 5f;
+            timer = 4f;
         }
     }
 

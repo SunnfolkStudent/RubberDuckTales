@@ -25,7 +25,8 @@ public class PlayerInput : MonoBehaviour
     public float moveDirection;
     public float lift;
     public float squeak;
-    public float brush; 
+    public float brush;
+    public bool pause; 
     
     // Update is called once per frame
     void Update()
@@ -34,6 +35,6 @@ public class PlayerInput : MonoBehaviour
         lift = _controls.Player.Lift.ReadValue<float>();
         squeak = _controls.Player.Squeak.ReadValue<float>();
         brush = _controls.Player.Brush.ReadValue<float>();
-
+        pause = _controls.Player.Pause.triggered;
     }
 }
