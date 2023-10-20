@@ -287,7 +287,7 @@ MonoBehaviour:
   paused: {fileID: 9175732059608365607}
   resume: {fileID: 494315842291908297}
   mainMenu: {fileID: 5495546232796103908}
-  Controls: {fileID: 4581780601593106763}
+  controls: {fileID: 4581780601593106763}
 --- !u!1 &4581780601593106763
 GameObject:
   m_ObjectHideFlags: 0

@@ -46,7 +46,6 @@ public class BrushMovement : MonoBehaviour
         */
 
         isBrushGrounded = GroundedBrush();
-        print(isBrushGrounded);
         
     }
 

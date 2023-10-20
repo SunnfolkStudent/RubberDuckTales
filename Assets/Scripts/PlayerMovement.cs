@@ -73,12 +73,12 @@ public class PlayerMovement : MonoBehaviour
             if (_brushMovement.transform.rotation.eulerAngles.z <= 180)
             {
                 ducking = true;
-                print("Yes");
+                /* print("Yes"); */
             }
             else
             {
                 ducking = false;
-                print("NOOOO");
+                /* print("NOOOO"); */
             }
         }
 
@@ -86,12 +86,12 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector2 direction = BrushRaycaster.transform.position - transform.position;
 
-            
+
             if (ducking ? _brushMovement.transform.rotation.eulerAngles.z <= 160 : _brushMovement.transform.rotation.eulerAngles.z > 200)
             {
                 _desiredVelocity = Quaternion.Euler(0, 0, (ducking ? -1 : 1) * 90) * direction * BrushRotationSpeed;
             }
-            
+
             //_desiredVelocity = new Vector2(_rigidbody2D.velocity.x, 1);
 
         }
@@ -111,18 +111,18 @@ public class PlayerMovement : MonoBehaviour
         }
         _rigidbody2D.velocity = _desiredVelocity;
     }
-    
+
     public bool IsPlayerGrounded()
     {
         return PlayerIsGrounded();
     }
-    
+
     private bool PlayerIsGrounded()
     {
         return Physics2D.Raycast(transform.position, Vector2.down, 0.6f, whatIsGround);
     }
-    
-    
+
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         var speed = _rigidbody2D.velocity.magnitude;

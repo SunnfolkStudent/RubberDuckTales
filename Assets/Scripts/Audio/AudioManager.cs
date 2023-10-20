@@ -18,7 +18,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip Bathroom;
     public AudioClip otherClip;
 
-    IEnumerator Start()
+   /* IEnumerator Start()
     {
         
         
@@ -27,7 +27,7 @@ public class AudioManager : MonoBehaviour
         yield return new WaitForSeconds(10f);
         musicSource.clip = otherClip;
         musicSource.Play();
-    }
+    } */
 
 
     /* public bool PlayNext;

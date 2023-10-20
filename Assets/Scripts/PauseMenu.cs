@@ -12,7 +12,7 @@ namespace Player
         [SerializeField] private GameObject paused;
         [SerializeField] private GameObject resume;
         [SerializeField] private GameObject mainMenu;
-        [SerializeField] private GameObject Controls;
+        [SerializeField] private GameObject controls;
 
         private void Start()
         {
@@ -21,11 +21,6 @@ namespace Player
 
         private void Update()
         {
-            if (isPaused && input.pause)
-            { 
-                MainMenu();
-            }
-
             if (!input.pause) return;
 
             if (!isPaused)
@@ -46,7 +41,7 @@ namespace Player
             paused.SetActive(true);
             resume.SetActive(true);
             mainMenu.SetActive(true);
-            Controls.SetActive(true);
+            controls.SetActive(true);
 
             Time.timeScale = 0;
         }
@@ -59,7 +54,7 @@ namespace Player
             paused.SetActive(false);
             resume.SetActive(false);
             mainMenu.SetActive(false);
-            Controls.SetActive(false);
+            controls.SetActive(false);
             
             Time.timeScale = 1;
         }
