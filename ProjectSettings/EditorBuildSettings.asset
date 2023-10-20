@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 5 - Bathroom.unity
     guid: b9e9d7b113334b942817592436b83fc1
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: e51c1a700851d8a4e950268b1525f1b7
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
