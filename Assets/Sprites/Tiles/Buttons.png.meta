@@ -122,7 +122,7 @@ TextureImporter:
       name: Buttons_0
       rect:
         serializedVersion: 2
-        x: 22
+        x: 1
         y: 98
         width: 40
         height: 21
@@ -143,9 +143,9 @@ TextureImporter:
       name: Buttons_1
       rect:
         serializedVersion: 2
-        x: 70
+        x: 49
         y: 98
-        width: 21
+        width: 40
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,7 +164,7 @@ TextureImporter:
       name: Buttons_2
       rect:
         serializedVersion: 2
-        x: 94
+        x: 120
         y: 98
         width: 21
         height: 21
@@ -185,9 +185,9 @@ TextureImporter:
       name: Buttons_3
       rect:
         serializedVersion: 2
-        x: 22
-        y: 76
-        width: 40
+        x: 144
+        y: 98
+        width: 21
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -206,8 +206,8 @@ TextureImporter:
       name: Buttons_4
       rect:
         serializedVersion: 2
-        x: 70
-        y: 75
+        x: 168
+        y: 98
         width: 21
         height: 21
       alignment: 0
@@ -227,10 +227,10 @@ TextureImporter:
       name: Buttons_5
       rect:
         serializedVersion: 2
-        x: 94
-        y: 75
-        width: 21
-        height: 21
+        x: 204
+        y: 86
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +248,8 @@ TextureImporter:
       name: Buttons_6
       rect:
         serializedVersion: 2
-        x: 22
-        y: 53
+        x: 1
+        y: 76
         width: 40
         height: 21
       alignment: 0
@@ -269,8 +269,8 @@ TextureImporter:
       name: Buttons_7
       rect:
         serializedVersion: 2
-        x: 22
-        y: 30
+        x: 49
+        y: 76
         width: 40
         height: 21
       alignment: 0
@@ -282,6 +282,258 @@ TextureImporter:
       bones: []
       spriteID: 0d1e9eb08b05ef2d0800000000000000
       internalID: -3243065930256096816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 75
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0468885d2aad7b04789210e6a66406dc
+      internalID: -1602201037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 75
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3ee37524e4d794fafa708b01c2cb75
+      internalID: -1605807548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 53
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284ff887eed9bb64680402569a8c1900
+      internalID: 1203459667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95da91e2a2f05d64492dc739d0c48c2f
+      internalID: -12883322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 53
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d483d1546276c7439b647efc10b4071
+      internalID: -1895592504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 46
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbb8cd5ae04f764598389f1bc57fe27
+      internalID: -727850381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 30
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c0744d4b80c247a2a514baa688435
+      internalID: 575322028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce1698853ee9494aba9490420de5556
+      internalID: 1264725733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_16
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 24
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13568861d15b4004cbd534cdb0ce5320
+      internalID: 707920423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 22
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b1b15bdadbb1d48a5c12d914723a69
+      internalID: -255473531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_18
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 22
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbab4eee60f1c564588fce98c4000b5b
+      internalID: 1102456428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b9a216e6169bb4e8462ea028313b81
+      internalID: 984021643
       vertices: []
       indices: 
       edges: []
@@ -299,12 +551,24 @@ TextureImporter:
     nameFileIdTable:
       Buttons_0: 8894201953851282084
       Buttons_1: 7664807735657788756
+      Buttons_10: 1203459667
+      Buttons_11: -12883322
+      Buttons_12: -1895592504
+      Buttons_13: -727850381
+      Buttons_14: 575322028
+      Buttons_15: 1264725733
+      Buttons_16: 707920423
+      Buttons_17: -255473531
+      Buttons_18: 1102456428
+      Buttons_19: 984021643
       Buttons_2: -5402412272178277761
       Buttons_3: 2013261503205373015
       Buttons_4: 3760674464881954987
       Buttons_5: -7811504096720598664
       Buttons_6: -7814535901586335685
       Buttons_7: -3243065930256096816
+      Buttons_8: -1602201037
+      Buttons_9: -1605807548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
