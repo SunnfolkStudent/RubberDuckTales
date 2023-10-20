@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 308eb153b46574e41979f77da0c87e55
-  - enabled: 1
     path: Assets/Scenes/Options.unity
     guid: 7f7fc4fdb3d1d1c4891bd844919be281
   - enabled: 1
@@ -29,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 5 - Bathroom.unity
     guid: b9e9d7b113334b942817592436b83fc1
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 308eb153b46574e41979f77da0c87e55
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
