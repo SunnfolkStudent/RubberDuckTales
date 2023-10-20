@@ -73,10 +73,12 @@ public class PlayerMovement : MonoBehaviour
             if (_brushMovement.transform.rotation.eulerAngles.z <= 180)
             {
                 ducking = true;
+                print("Yes");
             }
             else
             {
                 ducking = false;
+                print("NOOOO");
             }
         }
 
