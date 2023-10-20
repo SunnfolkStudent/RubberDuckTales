@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.7568628, b: 0.5647059, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -595,7 +595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.68553454, b: 0.7811074, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -678,6 +678,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 575322028, guid: 42ceae26de9be554ebe6c83ee3b5f505, type: 3}
+    - target: {fileID: 3444037355656057889, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444037355656057889, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444037355656057889, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9150943
+      objectReference: {fileID: 0}
     - target: {fileID: 3450970949814553723, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -856,6 +868,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 8894201953851282084, guid: 42ceae26de9be554ebe6c83ee3b5f505, type: 3}
+    - target: {fileID: 8248416469445872598, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.54402506
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248416469445872598, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9889684
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248416469445872598, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8248416469445872598, guid: 5cb84c40d74f9d0438d62249fad0934a, type: 3}
       propertyPath: m_PreserveAspect
       value: 0
