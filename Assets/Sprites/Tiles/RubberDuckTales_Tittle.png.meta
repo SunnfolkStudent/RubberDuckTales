@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RubberDuckTales_Tittle_0: 4720742116016255824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

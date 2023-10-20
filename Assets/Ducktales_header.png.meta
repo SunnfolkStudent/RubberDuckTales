@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ducktales_header_0: -8788205754374817932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

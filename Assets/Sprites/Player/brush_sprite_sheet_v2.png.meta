@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      brush_sprite_sheet_v2_0: -4515139906948839271
+      brush_sprite_sheet_v2_1: -8443066550298641341
+      brush_sprite_sheet_v2_2: 1447339659275900396
+      brush_sprite_sheet_v2_3: 326192856711965711
+      brush_sprite_sheet_v2_4: 3033628405273703617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

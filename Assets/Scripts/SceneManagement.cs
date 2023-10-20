@@ -7,6 +7,11 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    
+    public void LoadSceneByIndex()
+    {
+        SceneManager.LoadScene(SceneManager.GetSceneByBuildIndex(0).buildIndex+1);
+    }
 
     public void QuitGame()
     {

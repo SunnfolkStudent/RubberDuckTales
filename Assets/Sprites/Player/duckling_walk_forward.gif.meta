@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      duckling_walk_forward_0: 4156071477098591303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
