@@ -8,7 +8,7 @@ public class CreditsScript : MonoBehaviour
 {
     void Start()
     {
-        Invoke(nameof(MainMenu), 38);
+        Invoke(nameof(MainMenu), 36);
     }
 
     private void MainMenu()
