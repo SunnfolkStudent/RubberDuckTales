@@ -7,11 +7,12 @@ public class PlayerAnimations : MonoBehaviour
     private Animator _anim;
     private SpriteRenderer _renderer;
     private PlayerMovement _pMove;
+
     void Start()
     {
         _anim = transform.parent.GetComponentInChildren<Animator>();
         _renderer = GetComponentInChildren<SpriteRenderer>();
-        
+
         _pMove = GetComponent<PlayerMovement>();
     }
 
@@ -21,7 +22,8 @@ public class PlayerAnimations : MonoBehaviour
         {
             _anim.Play("player_swim_forward");
         }
-        else if (_pMove.IsPlayerGrounded() && (_pMove._rigidbody2D.velocity.x > 1 || _pMove._rigidbody2D.velocity.x < -1))
+        else if (_pMove.IsPlayerGrounded() &&
+                 (_pMove._rigidbody2D.velocity.x > 1 || _pMove._rigidbody2D.velocity.x < -1))
         {
             _anim.Play("player_walk_forward");
         }
@@ -29,22 +31,19 @@ public class PlayerAnimations : MonoBehaviour
         {
             _anim.Play("player_lay_idle_1_forward");
         }
-
+        
         if (_pMove._input.lift != 0)
         { return; }
 
-        if (expr)
+        if (_pMove._rigidbody2D.velocity.x < -1)
         {
-            
-        }
-        
-        /* if (_pMove._rigidbody2D.velocity.x < -1)
-        {
-            _renderer.flipX = true;
+            _renderer.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else if (_pMove._rigidbody2D.velocity.x > 1)
         {
-            _renderer.flipX = false;
-        } */
+            //_renderer.flipX = false;
+            _renderer.transform.rotation = Quaternion.Euler(0, 0, 0);
+        } 
     }
 }
+    
