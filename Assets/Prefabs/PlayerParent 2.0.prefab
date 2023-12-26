@@ -152,7 +152,6 @@ GameObject:
   - component: {fileID: 381669230107034323}
   - component: {fileID: 2669286265207035344}
   - component: {fileID: 1025406069966315724}
-  - component: {fileID: 2213677293845283928}
   - component: {fileID: 3851197452822097149}
   - component: {fileID: 4984126723316237766}
   m_Layer: 6
@@ -337,55 +336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c448ed8a050431e4c8003fce86d68717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2213677293845283928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6478679403930145565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_Priority: 0
-  m_ComponentVersion: 3
-  m_HasRenderer: 0
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_AlphaCutoff: 0.1
-  m_ApplyToSortingLayers: 00000000
-  m_ShapePath:
-  - {x: -0.50034714, y: -0.50226927, z: 0}
-  - {x: -0.50034714, y: 0.50226927, z: 0}
-  - {x: 0.50034714, y: 0.50226927, z: 0}
-  - {x: 0.50034714, y: -0.50226927, z: 0}
-  m_ShapePathHash: 0
-  m_InstanceId: 0
-  m_ShadowShape2DComponent: {fileID: 0}
-  m_ShadowShape2DProvider:
-    rid: 2600518843797864490
-  m_ShadowCastingSource: 2
-  m_ShadowMesh:
-    m_Mesh: {fileID: 0}
-    m_LocalBounds:
-      m_Center: {x: -0.015625, y: -0.015625, z: 0}
-      m_Extent: {x: 0.484375, y: 0.390625, z: 0}
-    m_EdgeProcessing: 1
-    m_TrimEdge: 0
-    m_FlipX: 0
-    m_FlipY: 0
-    m_InitialTrim: 0
-  m_CastingOption: 2
-  references:
-    version: 2
-    RefIds:
-    - rid: 2600518843797864490
-      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
-      data: 
 --- !u!82 &3851197452822097149
 AudioSource:
   m_ObjectHideFlags: 0
@@ -591,7 +541,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1ad08d886def4c745b2952a3355ef0af, type: 3}
   source: {fileID: 3851197452822097149}
   playerMovement: {fileID: 381669230107034323}
-  timer: 5
   volumeChangeMultiplier: 0.2
 --- !u!1 &7160369423581189167
 GameObject:

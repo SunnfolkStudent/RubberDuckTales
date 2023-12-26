@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3106646202798940003}
   - component: {fileID: 6047240344871307906}
   - component: {fileID: 1160558376232020566}
-  - component: {fileID: 1107477193913967824}
   m_Layer: 0
   m_Name: GoalSquare 1
   m_TagString: Untagged
@@ -132,17 +131,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1107477193913967824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4565956105312446196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f573073a989756844a0e8501128ebdde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: Level 2 - Park
-  quitGame: 0

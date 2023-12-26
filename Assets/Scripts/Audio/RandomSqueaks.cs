@@ -51,13 +51,13 @@ public class RandomSqueaks : MonoBehaviour
         }
     }
 
-    public void RandomSqueak()
+   /* public void RandomSqueak()
     {
         source.clip = squeaks[Random.Range(0, squeaks.Length)];
-       /* source.volume = Random.Range(1 - volumeChangeMultiplier, 1); */
-        /* source.pitch = Random.Range(1 - pitchChangeMultiplier, 1+pitchChangeMultiplier); */
-        source.PlayOneShot(source.clip);
-    }
+        source.volume = Random.Range(1 - volumeChangeMultiplier, 1); 
+        source.pitch = Random.Range(1 - pitchChangeMultiplier, 1+pitchChangeMultiplier);
+        source.PlayOneShot(source.clip); */
+   
 
     /* private void Start()
     {
@@ -76,4 +76,4 @@ public class RandomSqueaks : MonoBehaviour
         AudioClip clip = squeaks[UnityEngine.Random.Range(0, squeaks.Length)];
         AllSqueaks.PlayOneShot(clip);
     } */
-}
+    }
